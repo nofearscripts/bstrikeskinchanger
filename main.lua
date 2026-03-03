@@ -1,2 +1,700 @@
--- This script was generated using the MoonVeil Obfuscator v1.4.5 [https://moonveil.cc]
-local rc,a_,lb,Jb,na,Qa=type,pairs,getmetatable,bit32.bxor local d_=(getfenv())local Q,cb,lc=(string.char),(string.byte),(bit32 .bxor)local vc=function(Gb,ka)local J=''for Yb=-19257+19318,(#Gb- -6.6648893628365767e-05*-15004)+(-6783- -6844)do J=J..Q(lc(cb(Gb,(Yb-(16442-16381))+(30862-30861)),cb(ka,(Yb- -0.023524874662553028*-2593)%#ka+(-10283- -10284))))end return J end local Ib=(select)local gc=(function(...)return{[1]={...},[2]=Ib('#',...)}end)local M=((function()local function Va(Ea,m,ub)if m>ub then return end return Ea[m],Va(Ea,m+1,ub)end return Va end)())local db,za=(string.gsub),(string.char)local ic=(function(wc)wc=db(wc,'[^ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=]','')return(wc:gsub('.',function(fa_)if(fa_=='=')then return''end local gb,Ia='',(('ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'):find(fa_)-1)for fc=6,1,-1 do gb=gb..(Ia%2^fc-Ia%2^(fc-1)>0 and'1'or'0')end return gb end):gsub('%d%d%d?%d?%d?%d?%d?%d?',function(pa)if(#pa~=8)then return''end local Za=0 for xc=1,8 do Za=Za+(pa:sub(xc,xc)=='1'and 2^(8-xc)or 0)end return za(Za)end))end)local E,Mb,pb,K,ca,zb,T,Ya=d_[vc('+\254F1\228S','X\138\52')][vc('f\138\49r\135*','\19\228A')],d_[vc('X\250tB\224a','+\142\6')][vc('\249\255\232','\138')],d_[vc('\27\14v\1\20c','hz\4')][vc('\175n\185r','\205\23')],d_[vc(')\a?]y','Kn')][vc('\238\219K\235\206W','\130\168#')],d_[vc('\198\194\208\152\150','\164\171')][vc('\242\30\184\233\v\164','\128m\208')],d_[vc('\148\208\130\138\196','\246\185')][vc('\96\201l\204','\2\168')],d_[vc('\168\15\190\2\185','\220n')][vc('\15\213\223\15\219\197','l\186\177')],{}local l_=(function(C)local Na=Ya[C]if Na then return Na end local ec,Hb,nb,e_,Wb=K(21474+-21473,-264440/-24040),K(21648/21648,-127765/-25553),-29758/-29758,{},''while nb<=#C do local dc=pb(C,nb);nb=nb+(-4180+4181)for Eb=1794312/8307,(0.00032866357175136601*24341)+-5166020/-24028 do local A=nil if zb(dc,9732/9732)~=0 then if not(nb<=#C)then else A=Mb(C,nb,nb);nb=nb+21130/21130 end else if not(nb+4.2075146211133085e-05*23767<=#C)then else local hc=E(vc('\216\175\212','\230'),C,nb);nb=nb+(-343+345)local ob,ea=#Wb-ca(hc,-66925/-13385),zb(hc,(Hb- -10154/-10154))+-57648/-19216;A=Mb(Wb,ob,ob+ea- -6.1443932411674347e-05*-16275)end end dc=ca(dc,-14389+14390)if not(A)then else e_[#e_+0.00051387461459403907*1946]=A;Wb=Mb(Wb..A,-ec)end end end local oc=T(e_);Ya[C]=oc return oc end)local Fa,Db,Sb,Ba,Pa,ib,X,tc,pc,La,cc,Xa,H,I,qa,W,U,wa,v,vb,wb,r_,jc,N,S,qb,ga,jb,Ha,t_=d_[vc('\192\254\196\226','\180\135')],d_[vc('\228\133\245\138\248','\148\230')],d_[vc('[\173L\176L','>\223')],d_[vc('\254s\30\192\231~\21\199','\138\28p\181')],d_[vc('\22\156\238\18\157\233','w\239\157')],d_[vc('\131?\152\149\57\128','\240Z\244')],d_[vc('m\212Trbx\127\197A}ki','\30\177 \31\a\f')],d_[vc('E\158\171_\132\190','6\234\217')][vc('_ebTkd','9\n\16')],d_[vc('\165 \220\191:\201','\214T\174')][vc('\6\248\206\18\245\213','s\150\190')],d_[vc('\253\156\243\231\134\230','\142\232\129')][vc('.(?',']')],d_[vc('\238yi\244c|','\157\r\27')][vc('O&Y:','-_')],d_[vc('\243\206\247\233\212\226','\128\186\133')][vc('\172\142\174\148','\207\230')],d_[vc('0\170&\167!','D\203')][vc('\252x\231r','\145\23')],d_[vc('\176\172\166\161\161','\196\205')][vc('\238.\253$','\158O')],d_[vc('\24~\14s\t','l\31')][vc('<\143%>\137%','_\253@')],d_[vc('\235\a\253\n\250','\159f')][vc('\247\219U\251\199R','\158\181&')],d_[vc('\142S\152^\159','\250\50')][vc('\207\194u\207\204o','\172\173\27')],d_[vc('_1\132 I*\159!Y','<^\246O')][vc('\228\196\215\230\194\215','\135\182\178')],d_[vc('\183\48\15\195\161+\20\194\177','\212_}\172')][vc('d\30x\27y','\29w')],d_[vc('\184\195\177\176\174\216\170\177\190','\219\172\195\223')][vc('\202\24\150\205\16\128','\184}\229')],d_[vc('x!\200!n:\211 ~','\27N\186N')][vc('\251b\247}\253','\152\14')],d_[vc('\t\26\127\b\26e\24','n\127\v')],d_[vc('\145\169\135\243\193','\243\192')][vc('\185\180\169','\219')],d_[vc('a\189w\231\49','\3\212')][vc('E\134H\140',"\'\254")],d_[vc('\195\26\213@\147','\161s')][vc('j\16f\21','\bq')],d_[vc('\208\198\198\156\128','\178\175')][vc('K\252L\251]',')\136')],d_[vc('i^\127\4\57','\v\55')][vc('\96\199\164{\210\184','\18\180\204')],d_[vc('\157\15\139U\205','\255f')][vc('\30\151\154\27\130\134','r\228\242')],d_[vc('\201W\223\r\153','\171>')][vc("8\22\'/\15\48)",']nS')],{[70403-9500]={{0.00015875031750063501*31496,-30908+30914,true},{-0.00023976023976023976*-25025,10470-10465,false},{0.0010384215991692627*7704,0,false},{1932-1927,0.00023025558369790466*30401,false},{0.0010311404413281089*4849,-27623+27628,false},{-3354/-1118,-8187+8194,false},{4494/749,157510/31502,true},{23733+-23730,0,false},{6795+-6792,3.386042731859276e-05*29533,true},{63/7,-0.00032922894580891549*-30374,true},{0.00054860653938994957*9114,-15621- -15627,true},{-9621- -9626,14822+-14812,false},{0.00017966223499820338*27830,-14349/-4783,false},{8299-8291,0,true},{-93330/-9333,-0.0017365418010419251*-4031,true},{-20145/-4029,-4593/-1531,false},{0.00087290502793296084*5728,150255/21465,false},{-0.00029623778019156709*-20254,5665+-5664,true},{2270+-2267,-25238- -25245,false},{-1257- -1262,-202797/-28971,true},{-16563+16572,-3.6260787584306334e-05*-27578,false},{-159414/-26569,-19647- -19656,true},{9.1692646249770768e-05*32718,30220+-30213,false},{27372+-27366,-0.00018337184142003154*-27267,false},{2275-2267,-21192+21199,false},{107805/21561,-18641- -18644,true},{0.00077869490733530598*6421,23947+-23940,false},{0.0018053800324968406*5539,3.5769217011839613e-05*27957,true},{23687+-23682,-0.0010854227721697602*-9213,true},{24803-24794,30958-30957,false},{-7113- -7118,7849-7843,true},{-2453+2461,4.4964028776978418e-05*22240,true},{0.00017066788030492661*17578,-4912- -4917,false},{-0.00036031707902954601*-24978,10670-10660,true},{-8247+8256,-9.3340178279740509e-05*-21427,true},{-39756/-6626,24657+-24656,false},{0.00018969572805220428*26358,-0.00036436509382401167*-16467,true},{1394-1391,0,true},{-194792/-24349,0,false},{39273/13091,15768-15765,false},{-253984/-31748,0,false},{-0.00067558438048912308*-7401,-1363- -1365,false},{11567+-11561,0,false},{149139/16571,-0.00070457976849521895*-9935,true},{72440/9055,-89991/-9999,true},{-27378- -27381,0.00041602529433789573*24037,true},{-0.00018578382194478504*-26913,-17850+17857,false},{0.0050825921219822112*1574,0,false},{-22152- -22161,-15145+15154,false},{-0.00020946795140343527*-14322,-36771/-5253,true},{31118-31108,-26256- -26265,false},{26974-26971,-28454- -28461,false},{-6951- -6956,291-284,false},{21524-21515,-75933/-8437,false},{0.00087805948853034795*9111,97405/13915,false},{30380-30375,15365+-15363,false},{-25962+25971,-24857- -24858,true},{0.00031543751182890669*15851,0,false},{-10189- -10192,6147-6137,true},{0.0018491124260355029*5408,-30419- -30420,false},{28664-28659,13047+-13041,false},{24940/2494,-64270/-32135,false},{-265240/-26524,3694+-3688,true},{10341-10338,0,false},{-1151- -1156,-0.01834862385321101*-109,false},{21383+-21380,-127260/-25452,true},{0.0003058727569331158*29424,0.00035054919373685438*17116,false},{-0.00038710176905508458*-25833,61270/30635,true},{25895-25892,-0.00088020420737611128*-11361,true},{14433-14430,-12812- -12819,true},{36603/12201,112987/16141,false},{165/55,-108675/-12075,false},{4635+-4627,0,true},{24902+-24897,-26118/-4353,true},{14749+-14739,15343-15333,true},{0.00010431879824744419*28758,0,false},{20082+-20074,16399-16393,false},{14975+-14965,25860/4310,true},{-27166- -27171,24582+-24575,false},{-16925+16931,-48194/-24097,true},{297500/29750,0,true},{5081+-5078,-3.9707750952986025e-05*-25184,true},{26557-26554,61059/20353,true},{-47700/-9540,-8.1030710639332307e-05*-12341,true},{31862+-31859,-28797/-9599,true},{-100710/-20142,-0.00077190274025472794*-5182,false},{7962-7956,0.011400651465798045*614,false},{19004+-18994,41902/5986,false},{-30400+30408,0,false},{30213+-30207,0.00029404351844072922*23806,true},{-93065/-18613,7.4721661809758652e-05*26766,false},{25115+-25107,-0.00055252979714263159*-12669,false},{-123860/-12386,-22681- -22691,true},{-0.00011679059446412582*-25687,4438+-4431,false},{20831+-20821,32588-32581,false},{8036+-8030,-7187+7190,true},{0.001530221882172915*5228,0.0016728002676480427*2989,false},{35043/11681,0,false},{74456/9307,-20084+20090,true},{0.00011410748925487809*26291,0,true},{-156180/-31236,26664-26657,false},{23185/4637,-0.00013167134831460674*-22784,false},{-2722- -2727,4760-4753,false},{144180/14418,98226/32742,true},{-25224- -25229,28663-28656,false},{-23504+23512,-13271- -13273,false},{17299-17291,-28571+28572,true},{-19211+19217,31534-31529,true},{-3444+3449,19108+-19101,true},{-27839- -27842,88230/8823,true},{0.035087719298245612*285,-12516- -12526,true},{16017+-16012,-29040- -29047,false},{-2763+2772,1363-1357,false},{12354-12351,0,true},{30471-30466,0,false},{7137/793,17329-17328,true},{22080+-22072,0.00015325670498084291*13050,false},{-28868- -28874,-285255/-31695,true},{-3638- -3641,0,true},{-20930+20933,-20750+20757,true},{-0.0007407407407407407*-8100,-28385+28395,false},{10230-10227,218709/24301,true},{51970/10394,-15576/-7788,false},{24489/2721,-31423- -31424,false},{26261-26256,-19468+19475,false},{20149+-20146,7.1802972643067421e-05*27854,false},{14357+-14347,31627+-31618,false},{-218+228,-19400- -19408,false},{-27462+27470,-28808+28813,true},{13956+-13947,-24208- -24214,true},{152292/25382,11561+-11551,true},{-91200/-18240,-147840/-21120,false},{3666-3661,-0.00052854122621564484*-13244,false},{-0.00035888601780074649*-27864,-0.00057557269483135716*-8687,true},{-175662/-29277,17825-17818,true},{-0.0020197939810139365*-4951,90372/15062,true},{-0.0001868751362631202*-32107,-13812/-2302,false},{-24941- -24946,11642+-11635,false},{9.7767638911520289e-05*30685,2141-2132,true},{30527-30522,22113/3159,false},{14058-14049,-8522- -8532,false},{68545/13709,-24603+24610,false},{-12025/-2405,16403-16396,false},{9.9383820314052871e-05*30186,31782+-31775,false},{-28067- -28072,0.00037630766915029728*26574,true},{-76740/-25580,0.00028021296185100678*24981,true},{-323970/-32397,16267-16257,false},{-0.00017964286997449071*-27833,24904/6226,false},{26633-26630,-0.00042036431574030825*-21410,false},{-151135/-30227,-21491- -21498,false},{-20035- -20043,0.00018479164741753672*10823,true},{2238+-2233,-128312/-32078,false},{-11760+11768,-28830- -28835,true},{-31295- -31303,77427/11061,false},{19007+-18997,0,false},{-138255/-27651,5945-5938,false},{19386+-19381,-21630- -21636,true},{30603+-30598,-20132+20139,false},{0.00041816509157815507*11957,-0.00046592119275825348*-15024,false},{-12844+12847,0.00022307912935402659*31379,true},{9390+-9384,18274-18272,false},{-8085+8094,-68286/-11381,true},{-9124+9127,-22400/-3200,false},{-18377+18382,19647+-19640,false},{0.00048602673147023087*20575,-30624- -30631,false},{12221-12211,-6091+6100,true},{-22175+22183,-4907- -4908,false},{-11776- -11781,-0.00025493480952727801*-27458,false},{7749+-7746,-218498/-31214,true},{0.00048192771084337347*16600,0,true},{6500-6497,0.0032422417786012042*2159,false},{-71826/-11971,13256-13255,true},{-5066+5069,24174-24169,false},{-29165- -29170,0.00050060788099835513*13983,false},{25389-25381,-82020/-13670,true},{-0.0015228426395939086*-1970,175399/25057,false},{11517-11512,-10657- -10664,false},{43614/14538,0.0040779338468509285*2207,false},{0.00023113371085172773*25959,786+-784,false},{0.00086445366528354077*5784,-0.00023862077193819722*-16763,false},{-26678- -26687,-23208- -23214,false},{23472/7824,11344-11341,true},{-11424- -11433,9258-9257,false},{173744/21718,-64990/-12998,true},{0.00033367937119976274*26972,32235+-32234,true},{-176840/-22105,-27984- -27993,true},{12962-12956,-7742- -7748,true},{-13481- -13486,-32664- -32674,false},{0.00060876623376623375*4928,20709-20699,false},{9647+-9638,7700+-7693,false},{-0.00035248501938667606*-25533,76284/25428,true},{0.00035345403133959076*25463,15944-15942,false},{-7995+8003,-8.6311065078543067e-05*-11586,true},{-13298+13303,-32065+32072,false},{23485/4697,8073+-8066,false},{14303-14298,-11044+11048,false},{15701+-15693,0.00075864311260431339*9227,true},{-0.00044539461963299481*-11226,10839+-10830,true},{5056+-5046,3.0671083302662252e-05*32604,true},{0.00034188034188034188*8775,0,false},{0.0011900511722004047*8403,60557/8651,true},{31485-31480,-59090/-11818,true},{0.0033758439609902473*2666,0,false},{-7095+7100,-9195- -9197,false},{-10124- -10127,-0.00034920265394016993*-25773,false},{14624+-14619,-24537- -24544,false},{23208-23205,3522-3512,true},{14746+-14738,0,true},{5275-5266,0,false},{-732- -737,497-495,false},{0.00091066387396411986*10981,4777-4770,true},{18720+-18715,122178/20363,true},{10102-10099,-18382/-2626,true},{6056-6051,-84224/-12032,false},{-0.0043103448275862068*-2320,0,false},{-7270+7273,0,true},{-28199- -28207,26607+-26602,false},{-5124- -5127,-63279/-21093,true},{-31492+31497,11676/1946,true},{-23231+23234,5.3304904051172706e-05*18760,true},{25642-25639,-0.00037442276490410616*-24037,true},{24710+-24700,-19681+19690,false},{28099+-28096,29028/4838,true},{-217926/-24214,-16992/-16992,true},{-244350/-27150,-18655+18664,false},{-0.0017085255424568598*-5853,0.00092745259686727126*9704,false},{-30368- -30377,0,true},{5707+-5701,-12188+12194,false},{-12683+12686,0.00026028110359187923*3842,true},{-46545/-9309,227297/32471,false},{15209+-15200,20337+-20328,true},{0.00053853518429870751*16712,0,true},{-21875- -21880,3130-3123,false},{11463+-11458,0,false},{8926-8917,20703+-20696,false},{-0.0001088139281828074*-27570,-12852/-4284,false},{2568+-2562,3347-3338,false},{24195-24190,5924+-5914,false},{-25786+25796,183603/26229,true},{-274380/-27438,0.00013597425554095092*22063,false},{32675+-32672,182756/26108,false},{0.00037785754770451542*21172,1467+-1464,false},{30953-30948,20817-20810,false},{-8768- -8773,179956/25708,false},{22913+-22907,-0.0014138272303124558*-7073,true},{23430/3905,0,false},{-0.00067735380447053511*-4429,28107+-28100,true},{0.00034061395665687403*23487,-27631- -27634,false},{-23295- -23303,29120-29118,false},{8281-8275,-153726/-25621,true},{-210410/-21041,-0.00032287227172930386*-15486,true},{-35772/-11924,-0.00014018691588785047*-21400,true},{101296/12662,-0.0002337540906965872*-12834,true},{-0.0016949152542372881*-2950,28235-28232,true},{15942-15937,27135+-27128,true},{11080+-11075,10576+-10573,true}},[23506+6196]={},[33210135/6531]={}}local _c=(function(ta)local s_=t_[5085][ta]if s_ then return s_ end local h=1 local function xb()local rb,Zb,G,kb,Lb,Oa,Xb,Nb,bb,va,oa,o_,zc,Ob,Sa,uc,ac,sa,Da,k,xa,w_,Z,mc,L,sb,i_,ha,sc,Y,b_,P;Da,k={},function(Bb,B,mb)Da[Bb]=Jb(mb,44043)-Jb(B,17673)return Da[Bb]end;G=Da[-13337]or k(-13337,63228,116054)repeat if G<32534 then if G>13053 then if G>23970 then if G<=27987 then if G<=26502 then if G>25474 then if G>25737 then Oa,G=N(Lb,203),33738 continue else G,Lb=23757,gc(Y)continue end elseif G>25293 then Oa,G=nil,Da[-5539]or k(-5539,17443,62638)elseif G<=24716 then oa,G=N(Sa,-631718036),Da[5138]or k(5138,41687,21572)continue else if(L>=0 and P>Ob)or((L<0 or L~=L)and P<Ob)then G=Da[-23948]or k(-23948,39145,77664)else G=27035 end end elseif G<=27277 then if G>27035 then G,mc=Da[5386]or k(5386,45832,77650),N(bb,203)continue else Sa,G=nil,35342 end else G,mc[57270]=Da[5461]or k(5461,43217,95577),P[mc[53817]+1]end elseif G>=30754 then if G>=31513 then if G<=31513 then G,Ob,L,oa=59483,169,(o_)+168,1 else G,zc=Da[5358]or k(5358,42863,18503),false end elseif G>30754 then if bb==6 then G=Da[-2157]or k(-2157,47118,116305)continue elseif(bb==0)then G=Da[19752]or k(19752,4772,11676)continue else G=Da[19823]or k(19823,44167,130005)continue end G=Da[27975]or k(27975,46576,94328)else xa=pc(vc('#','a'),ta,h);G,h=Da[10671]or k(10671,10940,118146),h+1 end elseif G<=28240 then if G<=28057 then G,rb=Da[-15542]or k(-15542,5854,11314),nil else if(bb==5)then G=Da[-9819]or k(-9819,53827,123778)continue else G=Da[-9351]or k(-9351,16217,117185)continue end G=Da[5706]or k(5706,49482,115638)end else G,w_=57841,nil end elseif G>20291 then if G<22770 then if G<=22395 then if G<22011 then Lb,G=sa,Da[-21830]or k(-21830,8594,2850)continue elseif G>22011 then P[(Sa-96)],G=Oa,Da[23949]or k(23949,31251,29819)else G,oa=60161,nil end else L=Ob;oa=qa(L);G,mc,Sa,bb=33723,(L)+91,92,1 end elseif G<=23806 then if G>23757 then if(zc)then G=Da[-8971]or k(-8971,59175,101408)continue else G=Da[-21789]or k(-21789,34583,30697)continue end G=Da[19938]or k(19938,62269,5137)elseif G>22770 then Oa,G=M(Lb[1],1,Lb[2]),Da[-32360]or k(-32360,45763,123726)else oa=oa+mc;bb=oa if oa~=oa then G=Da[21534]or k(21534,49679,108417)else G=9886 end end else b_,G=nil,Da[24218]or k(24218,30681,113614)end elseif G<17020 then if G>14882 then sb=sa if sb==0 then G=Da[11287]or k(11287,11511,111064)continue else G=Da[15595]or k(15595,57123,119355)continue end G=Da[9493]or k(9493,59619,125032)elseif G>=14416 then if G>14416 then Nb=w_;sb=jc(sb,jb(S(Nb,127),(b_-97)*7))if not qb(Nb,128)then G=Da[28266]or k(28266,35961,67658)continue end G=Da[-30863]or k(-30863,13371,23653)else mc[57270],G=P[mc[22534]+1],Da[-11284]or k(-11284,64452,67148)end else G,Sa=53145,N(mc,203)continue end elseif G<18001 then if G<=17020 then G,i_=47556,N(kb,203)continue else G,Oa=Da[8353]or k(8353,15119,31114),Lb end elseif G<19871 then G=Da[1722]or k(1722,45712,78127)continue elseif G>19871 then sb,Y=S(ga(Oa,10),1023),S(ga(Oa,0),1023);mc[7167]=P[sb+1];mc[3510],G=P[Y+1],Da[6507]or k(6507,46119,94371)else uc=pc(vc('\147','\240')..sb,ta,h);G,h=Da[32721]or k(32721,11369,12146),h+sb end elseif G>=7595 then if G<=11829 then if G<10215 then if G<9886 then if G<=7595 then kb=pc(vc('\252','\190'),ta,h);h,G=h+1,Da[13985]or k(13985,16829,60219)else Y,uc=S(ga(Sa,8),16777215),nil;uc=if Y<8388608 then Y else Y-16777216;sb[56449],G=uc,Da[-13196]or k(-13196,27102,101222)end elseif G>9886 then G,Y=55896,N(uc,-631718036)continue else if(mc>=0 and oa>Sa)or((mc<0 or mc~=mc)and oa<Sa)then G=Da[-23230]or k(-23230,43456,122182)else G=Da[-17388]or k(-17388,29760,29179)end end elseif G>=10730 then if G>11362 then G,Zb=52533,N(o_,101401456)continue elseif G<=10730 then G,mc[57270]=Da[-18674]or k(-18674,49814,122642),P[mc[9074]+1]else va=0;G,P,Ob,L=Da[30265]or k(30265,10219,104559),164,168,1 end elseif G<=10215 then sa=0;G,sb,uc,Y=Da[-10248]or k(-10248,51052,113441),154,1,158 else Sa=Sa+bb;Oa=Sa if Sa~=Sa then G=Da[20774]or k(20774,30610,26419)else G=41649 end end elseif G>12619 then if G<=13018 then if G<=13005 then Ob=pc(vc('\159','\221'),ta,h);h,G=h+1,Da[5019]or k(5019,41743,22761)else G,Lb=10215,gc(nil)end else P=P+L;oa=P if P~=P then G=Da[-7648]or k(-7648,50010,100309)else G=Da[15165]or k(15165,42902,125287)end end elseif G>=12089 then if G<=12288 then if G<=12089 then G,Lb=57016,nil else bb=pc(vc('\213','\151'),ta,h);h,G=h+1,Da[13565]or k(13565,29016,13013)end else o_=0;G,zc,rb,Z=35231,168,1,164 end elseif G<=12018 then Z=Z+rb;va=Z if Z~=Z then G=Da[-16153]or k(-16153,2502,55055)else G=Da[6085]or k(6085,4279,100646)end else if(bb==4)then G=Da[-22076]or k(-22076,6597,8206)continue else G=Da[-23410]or k(-23410,43616,125679)continue end G=Da[12477]or k(12477,26686,10425)end elseif G>=3011 then if G>6596 then if G<6890 then if G<=6681 then Y,G=uc,Da[23409]or k(23409,56527,21060)continue else G=Da[8495]or k(8495,52200,4381)continue end elseif G>6890 then G,Lb=Da[17901]or k(17901,59065,2696),gc(N(sa,101401456))continue else sb[60167]=S(ga(Sa,8),255);Y=S(ga(Sa,16),65535);sb[8017]=Y;uc=nil;uc=if Y<32768 then Y else Y-65536;sb[9074],G=uc,Da[-1800]or k(-1800,27034,101154)end elseif G<=4209 then if G<=3804 then if G<=3011 then G,Xb=Da[-25015]or k(-25015,11045,128505),N(ha,203)continue else P,G=N(Ob,203),Da[1857]or k(1857,43991,67104)continue end else Sa=oa;mc=S(Sa,255);bb=t_[60903][mc+1];Oa,Lb,sa=bb[1],bb[2],bb[3];sb={[47328]=mc,[60167]=0,[9074]=0,[7167]=0,[51436]=0,[8017]=0,[31656]=0,[56449]=0,[53817]=0,[57270]=0,[30866]=Lb,[11690]=nil,[4826]=0,[3510]=0,[22534]=0};W(Z,sb)if Oa==10 then G=Da[-12072]or k(-12072,44852,106728)continue elseif Oa==5 then G=Da[19331]or k(19331,54130,120123)continue elseif Oa==3 then G=Da[10042]or k(10042,14313,8641)continue end G=Da[-3323]or k(-3323,18563,107563)end elseif G>6137 then L,G=nil,Da[4311]or k(4311,2927,2154)else sb=0;uc,Y,G,ac=101,97,Da[19787]or k(19787,615,17629),1 end elseif G<=1300 then if G>=969 then if G>=1067 then if G>1067 then if(ac>=0 and Y>uc)or((ac<0 or ac~=ac)and Y<uc)then G=Da[-2547]or k(-2547,40475,116315)else G=28426 end else zc,G=L,Da[-28046]or k(-28046,9662,52886)end else G,w_=14882,N(Nb,203)continue end elseif G>486 then Oa,G=M(Lb[1],1,Lb[2]),Da[13672]or k(13672,38964,104627)else rb=rb+P;Ob=rb if rb~=rb then G=Da[-15520]or k(-15520,53352,110321)else G=Da[4695]or k(4695,24942,17735)end end elseif G>=2177 then if G<=2177 then b_,G=N(w_,203),35916 continue else G,Lb=Da[32573]or k(32573,1169,29722),gc(nil)end else mc,G=nil,12288 end elseif G<46783 then if G<=39069 then if G>=35231 then if G<36670 then if G>=35916 then if G>35916 then bb=mc if(bb==5)then G=Da[-13494]or k(-13494,41174,124266)continue else G=Da[7657]or k(7657,28350,7731)continue end G=Da[16018]or k(16018,33293,111220)else w_=b_;sa=jc(sa,jb(S(w_,127),(ac-154)*7))if not qb(w_,128)then G=Da[28592]or k(28592,41207,114845)continue end G=Da[-27756]or k(-27756,32523,23754)end elseif G>35231 then mc=pc(vc('?','}'),ta,h);h,G=h+1,Da[14639]or k(14639,19497,37221)else va=Z if zc~=zc then G=Da[-12786]or k(-12786,45237,102394)else G=53103 end end elseif G<=38521 then if G<=38085 then if G>36670 then ac=sb if Y~=Y then G=Da[9966]or k(9966,47291,111895)else G=45084 end else G,sa=15699,N(sb,101401456)continue end else G,sa=6137,nil end elseif G>39054 then return{[54061]=kb,[55831]=oa,[7950]=ha,[40775]=xa,[62483]=Z,[6679]=''}else Oa=mc[53817];Lb,sa=ga(Oa,30),S(ga(Oa,20),1023);mc[57270]=P[sa+1];mc[4826]=Lb if Lb==2 then G=Da[23318]or k(23318,36186,125794)continue elseif Lb==3 then G=Da[-9865]or k(-9865,1483,15374)continue end G=Da[-11022]or k(-11022,1271,98675)end elseif G>=33924 then if G<34433 then if G<=33924 then G,Ob=22694,N(L,101401456)continue else va=rb;P=qa(va);oa,G,L,Ob=1,Da[27589]or k(27589,3221,109143),(va)+96,97 end elseif G>34433 then G=Da[4453]or k(4453,45944,114128)continue else if bb==0 then G=Da[-19315]or k(-19315,14290,53709)continue elseif(bb==3)then G=Da[4239]or k(4239,58733,32565)continue else G=Da[-27165]or k(-27165,22630,57445)continue end G=Da[26245]or k(26245,17212,61883)end elseif G<33723 then if G>32534 then Y=Y+ac;b_=Y if Y~=Y then G=Da[14113]or k(14113,54576,111484)else G=Da[-14153]or k(-14153,50194,10788)end else sb=S(ga(Oa,10),1023);G,mc[7167]=Da[-21947]or k(-21947,39391,91227),P[sb+1]end elseif G>33723 then Lb=Oa;L=jc(L,jb(S(Lb,127),(bb-214)*7))if(not qb(Lb,128))then G=Da[1221]or k(1221,61627,118506)continue else G=Da[-31985]or k(-31985,13310,25570)continue end G=Da[-16872]or k(-16872,29037,8541)else Oa=Sa if mc~=mc then G=39069 else G=41649 end end elseif G<44199 then if G<41649 then if G>39794 then b_=Y if uc~=uc then G=Da[-19169]or k(-19169,56860,99928)else G=1300 end elseif G>=39768 then if G>39768 then ha=pc(vc('\201','\139'),ta,h);h,G=h+1,Da[14615]or k(14615,58376,207)else Ob,G=nil,Da[22085]or k(22085,14977,118754)end else Ob=Ob+oa;Sa=Ob if Ob~=Ob then G=Da[-226]or k(-226,14170,16743)else G=48072 end end elseif G>=42379 then if G>42379 then Y,G=nil,51527 else G,rb=Da[17686]or k(17686,40503,117967),N(va,101401456)continue end elseif G>41649 then L,G=sa,Da[-4101]or k(-4101,55943,4018)continue else if(bb>=0 and Sa>mc)or((bb<0 or bb~=bb)and Sa<mc)then G=39069 else G=Da[3856]or k(3856,26719,100823)end end elseif G>45879 then if G<=46440 then if G<=46037 then G,Lb=23757,gc''continue else G,i_=Da[-11273]or k(-11273,12409,16144),nil end else mc[57270]=P[Ha(mc[53817],0,24)+1];mc[31656],G=Ha(mc[53817],31,1)==1,Da[-24968]or k(-24968,60295,79363)end elseif G<=44335 then if G>44204 then G=Da[18658]or k(18658,5031,30521)continue elseif G<=44199 then G,Oa=54211,nil else mc=Z[(Sa-168)];bb=mc[30866]if(bb==2)then G=Da[-19514]or k(-19514,15749,7383)continue else G=Da[-11577]or k(-11577,50112,120330)continue end G=Da[7361]or k(7361,3233,104745)end elseif G<=45084 then if(uc>=0 and sb>Y)or((uc<0 or uc~=uc)and sb<Y)then G=Da[26507]or k(26507,583,52915)else G=23970 end else G,mc[57270]=Da[-8556]or k(-8556,20860,21476),P[mc[56449]+1]end elseif G<55896 then if G>=50405 then if G>=53103 then if G>53634 then if G>54211 then G,xa,Xb=39794,sc,nil else Lb=pc(vc('\149','\215'),ta,h);G,h=26502,h+1 end elseif G>=53145 then if G<=53145 then mc=Sa;va=jc(va,jb(S(mc,127),(oa-164)*7))if not qb(mc,128)then G=Da[-5131]or k(-5131,45747,102912)continue end G=Da[3109]or k(3109,55526,31975)else oa=P if Ob~=Ob then G=Da[8979]or k(8979,52873,105728)else G=25293 end end else if(rb>=0 and Z>zc)or((rb<0 or rb~=rb)and Z<zc)then G=Da[15598]or k(15598,5722,11651)else G=Da[19892]or k(19892,5531,124224)end end elseif G<=52533 then if G>51527 then o_=Zb;Z,zc=qa(o_),false;P,G,rb,va=1,52969,12,(o_)+11 elseif G>50405 then uc=pc(vc('a\20i',']'),ta,h);G,h=9915,h+4 else if(P>=0 and rb>va)or((P<0 or P~=P)and rb<va)then G=28057 else G=Da[11927]or k(11927,30801,13917)end end else Ob=rb if va~=va then G=28057 else G=Da[29126]or k(29126,22725,20154)end end elseif G<47949 then if G<=47167 then if G>=46805 then if G>46805 then mc[57270],G=Ha(mc[53817],0,16),Da[-6523]or k(-6523,56106,75158)else bb=oa if Sa~=Sa then G=Da[-6527]or k(-6527,32368,5110)else G=9886 end end else sb=sb+uc;ac=sb if sb~=sb then G=Da[26368]or k(26368,18681,34129)else G=Da[13120]or k(13120,42825,81495)end end else kb,G,sc=i_,30754,nil end elseif G>48320 then if(oa>=0 and Ob>L)or((oa<0 or oa~=oa)and Ob<L)then G=Da[-18710]or k(-18710,61966,130644)else G=44204 end elseif G<=48072 then if G<=47949 then Ob=P;o_=jc(o_,jb(S(Ob,127),(va-164)*7))if not qb(Ob,128)then G=Da[-27677]or k(-27677,42616,20893)continue end G=Da[-8083]or k(-8083,57020,26284)else if(oa>=0 and Ob>L)or((oa<0 or oa~=oa)and Ob<L)then G=Da[27423]or k(27423,40319,130948)else G=Da[-21132]or k(-21132,36982,29073)end end else Sa=Ob if L~=L then G=31513 else G=Da[20614]or k(20614,21198,32644)end end elseif G>=59483 then if G<61908 then if G<60282 then if G>59483 then Sa=pc(vc(';N3','\a'),ta,h);h,G=h+4,24716 else Sa=Ob if L~=L then G=39768 else G=Da[-29532]or k(-29532,20561,31020)end end elseif G>60282 then G,ha,Zb=Da[-10355]or k(-10355,45307,101174),Xb,nil else Ob=Ob+oa;Sa=Ob if Ob~=Ob then G=Da[-7361]or k(-7361,47046,74284)else G=Da[16924]or k(16924,55398,127285)end end elseif G<63622 then if G>61908 then if bb==8 then G=Da[-30619]or k(-30619,31111,17358)continue elseif bb==9 then G=Da[-26391]or k(-26391,39182,81329)continue elseif(bb==1)then G=Da[16439]or k(16439,38336,116060)continue else G=Da[3213]or k(3213,9306,30348)continue end G=Da[-11348]or k(-11348,41843,97791)else sc,G=N(xa,203),55177 continue end elseif G>=63673 then if G<=63673 then P,G=nil,13005 else if(sa)then G=Da[-26253]or k(-26253,2220,21730)continue else G=Da[-5820]or k(-5820,10485,113918)continue end G=Da[13140]or k(13140,46126,79915)end else oa[(Oa-91)],G=xb(),Da[-30576]or k(-30576,64514,20077)end elseif G<58037 then if G>57016 then Nb=pc(vc('~','<'),ta,h);G,h=969,h+1 elseif G<56017 then uc=Y;sb[53817]=uc;W(Z,{});G=Da[-24975]or k(-24975,60523,122960)elseif G>56017 then sa=pc(vc('\189\229','\129'),ta,h);G,h=21540,h+8 else G=Da[-11973]or k(-11973,48158,74846)continue end elseif G<58465 then if G<=58037 then sb[60167]=S(ga(Sa,8),255);sb[22534]=S(ga(Sa,16),255);sb[51436],G=S(ga(Sa,24),255),Da[17049]or k(17049,51050,119026)else G,Y=19871,nil end elseif G<=58465 then L=0;G,mc,oa,Sa=Da[-7764]or k(-7764,42057,78878),1,214,218 else w_=pc(vc('\15','M'),ta,h);G,h=2177,h+1 end until G==53276 end local u_=xb();t_[5085][ta]=u_ return u_ end)local ua=(function(y,O)y=_c(y)local n_=r_()local function c(Ga,p)local _a=(function(...)return{...},ib('#',...)end)local bc;bc=(function(Ta,Ub,fb)if Ub>fb then return end return Ta[Ub],bc(Ta,Ub+1,fb)end)local function ma(da,nc,Vb,z)local yb,Ua,V,Ac,f_,q,_b,qc,la,kc,Ca,Cb,Tb,F,Ja,Ab,Rb,yc,Kb,R,j,ia,D,ab;V,D=function(Ka,Qb,Pb)D[Qb]=Jb(Pb,41140)-Jb(Ka,53364)return D[Qb]end,{};R=D[21500]or V(27256,21500,100653)while R~=2815 do if R>=32214 then if R>48976 then if R>=57370 then if R<=62172 then if R>=59993 then if R<61077 then if R<=60858 then if R>59993 then if(qc>=0 and j>la)or((qc<0 or qc~=qc)and j<la)then R=D[-10512]or V(29795,-10512,75414)else R=D[-27260]or V(42995,-27260,129517)end else R,Ja[(yb-127)]=D[-22799]or V(26392,-22799,121928),p[ab[22534]+1]end else if kc[51436]==129 then R=D[-2730]or V(12821,-2730,122511)continue else R=D[26144]or V(3496,26144,114801)continue end R=D[-25749]or V(12477,-25749,90720)end elseif R<=62048 then if R>61181 then if(Ac>54)then R=D[-1078]or V(44987,-1078,1166)continue else R=D[14221]or V(4079,14221,90386)continue end R=D[26815]or V(56077,26815,19760)elseif R>61077 then yc,f_,Ca=a_(yc);R=D[-26474]or V(1365,-26474,110635)else da[kc[22534]][da[kc[60167]]],R=da[kc[51436]],D[-23282]or V(12657,-23282,91044)end else Ca=da[Kb];j,Ja,Ab,R=1,yc,Kb+1,D[4545]or V(28727,4545,17752)end elseif R>=57867 then if R>=59015 then if R>59015 then Ja[(yb-127)],R=q,D[30295]or V(11977,30295,91385)else if(kc[51436]==115)then R=D[11181]or V(59578,11181,63080)continue else R=D[15365]or V(63256,15365,19005)continue end R=D[2196]or V(7320,2196,69187)end elseif R<=57867 then if(not Ua)then R=D[-4875]or V(16796,-4875,3981)continue else R=D[16064]or V(60246,16064,5804)continue end R=31478 else if Ja[2]>=kc[60167]then R=D[13069]or V(60189,13069,8499)continue end R=D[31921]or V(42093,31921,23339)end elseif R<57564 then if(Ac>139)then R=D[29026]or V(54146,29026,11352)continue else R=D[30825]or V(29166,30825,105041)continue end R=D[-3062]or V(33352,-3062,103667)elseif R>57564 then ab=Vb[Tb];Tb+=1;_b=ab[60167]if(_b==0)then R=D[22271]or V(5404,22271,104056)continue else R=D[-26663]or V(9898,-26663,106737)continue end R=D[17062]or V(44766,17062,124046)else R,yc[7167]=D[-3546]or V(42119,-3546,119798),Ca end elseif R>=64532 then if R>64805 then if R<=65058 then R,j=D[8616]or V(60546,8616,55417),j..Xa(N(cc(Ab,(ab-161)+1),cc(Ja,(ab-161)%#Ja+1)))else kc[47328]=14;Tb+=1;R=D[24509]or V(32841,24509,103164)end elseif R>=64729 then if R<=64729 then wb(Ja);F[Ab],R=nil,D[-19696]or V(15105,-19696,84014)else Ab,Ja=yc(f_,Ca);Ca=Ab if Ca==nil then R=41973 else R=D[14459]or V(34553,14459,127954)end end elseif R>64532 then R,Ca=D[-17693]or V(62444,-17693,1688),nil else Sb'';R=D[-29228]or V(20530,-29228,108787)end elseif R<=63413 then if R<=63153 then if R>62439 then Tb-=1;R,Vb[Tb]=D[-5358]or V(42337,-5358,128916),{[47328]=193,[60167]=N(kc[60167],169),[22534]=N(kc[22534],6),[51436]=0}elseif R<=62329 then if(Ac>127)then R=D[-618]or V(53608,-618,48485)continue else R=D[-15798]or V(61248,-15798,5912)continue end R=D[14709]or V(27689,14709,81628)else yc[3510],R=Ab,D[-4040]or V(56269,-4040,109244)end else if(yb>=0 and la>qc)or((yb<0 or yb~=yb)and la<qc)then R=D[-28116]or V(4856,-28116,118869)else R=31114 end end elseif R>63907 then if(Ja==-2)then R=D[21621]or V(9818,21621,129330)continue else R=D[-19530]or V(23201,-19530,109026)continue end R=D[-12654]or V(21072,-12654,115867)else if(kc[51436]==68)then R=D[-24190]or V(56152,-24190,14792)continue else R=D[-19000]or V(61587,-19000,25902)continue end R=D[3378]or V(37543,3378,99434)end elseif R<=52050 then if R>50809 then if R>=51974 then if R>=52044 then if R<=52044 then Kb[57270]=yc;R,kc[47328]=D[-9502]or V(1513,-9502,71452),54 else Kb=lb(yc)if(Kb~=nil and Kb[vc('\196\201\243\239\243\232','\155\150\154')]~=nil)then R=D[-21952]or V(5004,-21952,111894)continue else R=D[-12345]or V(52613,-12345,11167)continue end R=D[15897]or V(3587,15897,112961)end else if(kc[51436]==220)then R=D[-31621]or V(24356,-31621,14057)continue else R=D[-499]or V(4503,-499,128451)continue end R=D[7781]or V(18856,7781,121683)end elseif R<=51614 then if R>50982 then la,R=la..Xa(N(cc(Ja,(_b-231)+1),cc(j,(_b-231)%#j+1))),D[12724]or V(16447,12724,18319)else R,da[kc[51436]]=D[-28902]or V(47024,-28902,125307),Ca end else Tb+=1;R=D[10697]or V(1804,10697,71991)end elseif R<50576 then if R>49703 then if(kc[51436]==208)then R=D[14402]or V(43304,14402,15131)continue else R=D[-15062]or V(59376,-15062,21934)continue end R=D[-32555]or V(58325,-32555,111896)elseif R<=49608 then if R>49482 then j=j+qc;yb=j if j~=j then R=D[-13288]or V(52634,-13288,49548)else R=D[-1296]or V(3209,-1296,70688)end else Kb=lb(yc)if(Kb~=nil and Kb[vc('\187\189\189\144\135\166','\228\226\212')]~=nil)then R=D[17040]or V(10965,17040,72005)continue else R=D[-14787]or V(13458,-14787,22773)continue end R=D[-13601]or V(50387,-13601,15513)end else Ab={f_(da[Kb+1],da[Kb+2])};H(Ab,1,yc,Kb+3,da)if da[Kb+3]~=nil then R=D[20288]or V(10519,20288,99587)continue else R=D[4989]or V(25705,4989,127512)continue end R=D[22932]or V(26403,22932,80342)end elseif R<=50748 then if R<50658 then j=j+qc;yb=j if j~=j then R=D[-32688]or V(42387,-32688,128838)else R=60858 end elseif R>50658 then yc,f_,Ca=a_(yc);R=D[-10356]or V(40989,-10356,22363)else if(yb>=0 and la>qc)or((yb<0 or yb~=yb)and la<qc)then R=D[21086]or V(7623,21086,123497)else R=D[-27718]or V(31968,-27718,68098)end end else if(Ac>30)then R=D[30917]or V(12557,30917,72848)continue else R=D[-1221]or V(38991,-1221,2260)continue end R=D[-1530]or V(29997,-1530,75728)end elseif R<=56337 then if R<55191 then if R<54738 then Kb,yc=nil,N(kc[8017],65456);Kb=if yc<32768 then yc else yc-65536;f_=Kb;R,da[N(kc[60167],189)]=D[22949]or V(23621,22949,118408),f_ elseif R>54738 then if(da[kc[60167]]==da[kc[53817]])then R=D[-15417]or V(9905,-15417,90202)continue else R=D[402]or V(34987,402,15588)continue end R=D[8833]or V(30497,8833,76244)else yb=j if la~=la then R=D[19261]or V(45923,19261,124310)else R=D[-14217]or V(20783,-14217,118689)end end elseif R>=55979 then if R>55979 then Tb-=1;R,Vb[Tb]=D[32372]or V(46092,32372,124471),{[47328]=141,[60167]=N(kc[60167],44),[22534]=N(kc[22534],127),[51436]=0}else if(Ac>65)then R=D[6881]or V(11991,6881,76794)continue else R=D[4338]or V(2538,4338,125314)continue end R=D[6616]or V(16324,6616,94479)end elseif R<=55191 then if(qc>=0 and j>la)or((qc<0 or qc~=qc)and j<la)then R=D[10465]or V(15718,10465,102632)else R=874 end else R,j=D[5009]or V(35930,5009,31604),f_-1 end elseif R<56828 then if R<=56365 then R,da[kc[60167]]=D[-15878]or V(16713,-15878,3815),f_[kc[7167]][kc[3510]]else if kc[51436]==88 then R=D[3739]or V(29003,3739,22768)continue elseif(kc[51436]==91)then R=D[-32578]or V(28035,-32578,107646)continue else R=D[15186]or V(61235,15186,101880)continue end R=D[25461]or V(47258,25461,125517)end elseif R>=56863 then if R>56863 then Tb+=kc[9074];R=D[2129]or V(18527,2129,121474)else if(Ja>=0 and Ca>Ab)or((Ja<0 or Ja~=Ja)and Ca<Ab)then R=D[8485]or V(51401,8485,23164)else R=D[-30122]or V(31334,-30122,18388)end end else Ca..=da[la];R=D[29587]or V(17799,29587,99299)end elseif R<=39243 then if R<=34989 then if R>=33428 then if R>34106 then if R>=34817 then if R>34817 then R,da[kc[60167]]=D[-13566]or V(54919,-13566,18506),not da[kc[22534]]else Tb+=kc[9074];R=D[-8676]or V(37056,-8676,98827)end else Ab,Ja=yc(f_,Ca);Ca=Ab if Ca==nil then R=D[-1034]or V(44029,-1034,130336)else R=D[-5651]or V(500,-5651,70945)end end elseif R>=33513 then if R>33706 then R,Cb=D[2455]or V(27250,2455,104748),Kb+j-1 elseif R<=33513 then Kb,yc=kc[60167],kc[22534]-1 if yc==-1 then R=D[-32181]or V(52084,-32181,63729)continue end R=20523 else Kb=da[kc[51436]];R,da[kc[60167]]=D[-11638]or V(14163,-11638,92550),if Kb then Kb else kc[57270]or false end elseif R>33428 then j=Ca if Ab~=Ab then R=D[-9669]or V(34822,-9669,105161)else R=D[-1174]or V(54657,-1174,17568)end else Ab,Ja=yc[7167],kc[7167];Ja=vc('\20\250\a\177','z_')..Ja;j='';la,yb,R,qc=238,1,D[15679]or V(62527,15679,51831),(#Ab-1)+238 end elseif R>32658 then if R>=33198 then if R<=33198 then R,da[kc[60167]]=D[4488]or V(28910,4488,74257),kc[57270]else ab=la if qc~=qc then R=D[17915]or V(62275,17915,14549)else R=50658 end end else Kb,yc,f_=N(kc[51436],60),N(kc[60167],106),N(kc[22534],56);Ca,Ab=yc==0 and Cb-Kb or yc-1,da[Kb];Ja,j=_a(Ab(bc(da,Kb+1,Kb+Ca)))if f_==0 then R=D[-22762]or V(42074,-22762,23004)continue else R=D[1044]or V(59745,1044,110905)continue end R=D[-26778]or V(29822,-26778,99112)end elseif R>32586 then H(Ja,1,j,Kb,da);R=D[18391]or V(57919,18391,111842)elseif R<=32385 then if R<=32214 then Ca=Ca+Ja;j=Ca if Ca~=Ca then R=D[27603]or V(12754,27603,90885)else R=D[-23909]or V(47814,-23909,125029)end else H(Ja,1,yc,Kb+3,da);da[Kb+2]=da[Kb+3];Tb+=kc[9074];R=D[-24107]or V(55431,-24107,19018)end else Kb,yc,f_=kc[51436],kc[60167],kc[22534]-1 if(f_==-1)then R=D[1020]or V(59509,1020,58845)continue else R=D[10914]or V(1767,10914,107887)continue end R=D[21089]or V(5369,21089,21345)end elseif R<36432 then if R<=35765 then if R>=35159 then if R<=35159 then if Ac>199 then R=D[11580]or V(28789,11580,111760)continue else R=D[-21429]or V(17387,-21429,31866)continue end R=D[18628]or V(565,18628,70904)else Ca,R=yc-1,D[-16259]or V(58410,-16259,10313)end elseif R>35029 then if(Ac>142)then R=D[-18380]or V(38921,-18380,102320)continue else R=D[13252]or V(38804,13252,100703)continue end R=D[-26061]or V(13807,-26061,91922)else Kb=kc[57270];da[kc[22534]]=n_[Kb]or t_[29702][Kb];Tb+=1;R=D[4656]or V(21904,4656,116571)end elseif R>36011 then Ab=Ab+j;la=Ab if Ab~=Ab then R=D[5651]or V(53267,5651,26425)else R=D[-21258]or V(63699,-21258,15669)end else if Ac>100 then R=D[-26622]or V(49383,-26622,5813)continue else R=D[32637]or V(56390,32637,57594)continue end R=D[-18790]or V(15615,-18790,93730)end elseif R<37780 then if R>=37338 then if R>37338 then Ja[3]=Ja[1][Ja[2]];Ja[1]=Ja;Ja[2]=3;Rb[Ab],R=nil,D[148]or V(59488,148,54054)else Ab,R=Ab..Xa(N(cc(f_,(qc-43)+1),cc(Ca,(qc-43)%#Ca+1))),D[-31371]or V(16009,-31371,111010)end else Tb-=1;Vb[Tb],R={[47328]=139,[60167]=N(kc[60167],106),[22534]=N(kc[22534],89),[51436]=0},D[1855]or V(54666,1855,18621)end elseif R<=38253 then if R>=38133 then if R>38133 then yc,f_,Ca=F if(rc(yc)~=vc('\237\220\219L\255\192\218A','\139\169\181/'))then R=D[-26385]or V(45039,-26385,6859)continue else R=D[-6837]or V(54728,-6837,107093)continue end R=D[-3287]or V(2528,-3287,95757)else Tb+=1;R=D[31550]or V(31826,31550,77445)end else R,da[kc[60167]]=D[28783]or V(48815,28783,127058),nil end else if Ac>137 then R=D[-25833]or V(50922,-25833,16383)continue else R=D[-10333]or V(23350,-10333,27086)continue end R=D[469]or V(23442,469,118085)end elseif R>=43942 then if R<=45652 then if R>=44629 then if R>=45092 then if R<=45092 then Kb=kc[57270];da[kc[60167]][Kb]=da[kc[51436]];Tb+=1;R=D[17285]or V(43739,17285,130062)else if Ac>10 then R=D[8420]or V(6718,8420,130955)continue else R=D[-29745]or V(27108,-29745,128137)continue end R=D[15399]or V(58752,15399,112459)end elseif R>44629 then R,Ca=D[-27017]or V(14226,-27017,78838),nil else Ca,R=j,39823 continue end elseif R>=44047 then if R>44047 then if Ac>175 then R=D[-22140]or V(5379,-22140,17857)continue else R=D[26284]or V(64471,26284,53881)continue end R=D[-21751]or V(41933,-21751,128368)else yb={[3]=da[la[22534]],[2]=3};yb[1]=yb;R,f_[(j-241)]=D[-13932]or V(24307,-13932,109801),yb end else if kc[51436]==2 then R=D[-15024]or V(56412,-15024,107117)continue elseif kc[51436]==81 then R=D[-27121]or V(665,-27121,69194)continue else R=D[8007]or V(8736,8007,104612)continue end R=D[3346]or V(24776,3346,78451)end elseif R<48534 then if R>=47834 then if R>47834 then Ja,j=yc[3510],kc[3510];j=vc('f&um','\b\131')..j;la='';ab,R,yb,qc=1,D[10326]or V(44558,10326,113098),(#Ja-1)+231,231 else if(ab>=0 and qc>yb)or((ab<0 or ab~=ab)and qc<yb)then R=D[-19122]or V(34684,-19122,49176)else R=D[-7154]or V(14412,-7154,69986)end end else Kb=kc[57270];da[kc[22534]]=da[kc[51436]][Kb];Tb+=1;R=D[24213]or V(3699,24213,90278)end elseif R<48843 then Kb,yc=kc[60167],kc[22534];f_=yc-1 if f_==-1 then R=D[22553]or V(40719,22553,11564)continue else R=D[4517]or V(63407,4517,4900)continue end R=D[-30385]or V(48601,-30385,25336)elseif R<=48843 then Tb+=kc[9074];R=D[-55]or V(22278,-55,117193)else yc,f_,Ca=Kb[vc('\224\a\185\203=\162','\191X\208')](yc);R=D[31830]or V(39412,31830,29106)end elseif R<40591 then if R>=39823 then if R<=39898 then if R<=39823 then yc[7167]=Ca;Ab,R=nil,47887 else Tb-=1;R,Vb[Tb]=D[-23392]or V(15810,-23392,94069),{[47328]=149,[60167]=N(kc[60167],155),[22534]=N(kc[22534],188),[51436]=0}end else Ca,Ab=yc[57270],kc[57270];Ab=vc("\184l\171\'",'\214\201')..Ab;Ja='';qc,R,la,j=1,16393,(#Ca-1)+61,61 end elseif R>=39597 then if R>39597 then _b=qc if yb~=yb then R=D[-3878]or V(61577,-3878,35349)else R=47834 end else n_[kc[57270]]=da[kc[22534]];Tb+=1;R=D[8581]or V(13329,8581,91844)end else Kb=nc[kc[57270]+1];yc=Kb[7950];f_=qa(yc);da[kc[60167]]=c(Kb,f_);Ca,Ja,R,Ab=242,1,D[-9044]or V(60921,-9044,24774),(yc)+241 end elseif R>=41973 then if R<42350 then if R>41973 then if(kc[51436]==177)then R=D[-31086]or V(19888,-31086,113341)continue else R=D[14860]or V(22981,14860,128003)continue end R=D[-25792]or V(1052,-25792,71367)else R=D[-23706]or V(3807,-23706,18718)continue end elseif R<=42350 then Kb,yc=kc[22534],kc[60167];f_,Ca=Db(U,da,'',Kb,yc)if(not f_)then R=D[20813]or V(13195,20813,95855)continue else R=D[10495]or V(58306,10495,23144)continue end R=D[21559]or V(54136,21559,27270)else Ab,Ja=yc[7167],kc[7167];Ja=vc('C\206P\133','-k')..Ja;j='';R,qc,la,yb=33285,(#Ab-1)+161,161,1 end elseif R<40918 then Tb+=1;R=D[3494]or V(62814,3494,108417)elseif R>40918 then da[kc[51436]]=kc[22534]==1;Tb+=kc[60167];R=D[-5271]or V(59411,-5271,113350)else Tb+=kc[9074];R=D[5477]or V(22317,5477,117200)end elseif R>17288 then if R>26282 then if R<=29028 then if R<28215 then if R>27593 then if R>27599 then if(rc(yc)==vc('\132R\146_\149','\240\51'))then R=D[7989]or V(40730,7989,106207)continue else R=D[20633]or V(64880,20633,51254)continue end R=D[-22722]or V(10330,-22722,103192)else if da[kc[60167]]then R=D[2346]or V(52958,2346,7732)continue end R=D[29466]or V(40184,29466,101923)end elseif R<27592 then if R>26392 then f_,Ca=Kb[57270],kc[57270];Ca=vc('\21\48\6{','{\149')..Ca;Ab='';Ja,j,R,la=43,(#f_-1)+43,D[24527]or V(19175,24527,7480),1 else if Ac>156 then R=D[20216]or V(52761,20216,112804)continue else R=D[13946]or V(63322,13946,58149)continue end R=D[-30221]or V(40098,-30221,101973)end elseif R>27592 then Kb=p[kc[22534]+1];da[kc[60167]],R=Kb[1][Kb[2]],D[-4477]or V(32074,-4477,77821)else Kb,yc,f_=kc[57270],kc[31656],da[kc[60167]]if((f_==Kb)~=yc)then R=D[22592]or V(24103,22592,126378)continue else R=D[-4952]or V(51878,-4952,10580)continue end R=D[-20989]or V(9420,-20989,95863)end elseif R>28568 then if R<28965 then q={[2]=ia,[1]=da};R,Rb[ia]=D[4700]or V(64687,4700,112065),q elseif R<=28965 then Sb(Ja);R=D[-9957]or V(38228,-9957,122907)else ia={[3]=da[ab[22534]],[2]=3};ia[1]=ia;R,Ja[(yb-127)]=D[-32383]or V(44428,-32383,123708),ia end elseif R>=28557 then if R>28557 then if Ac>51 then R=D[-2635]or V(7616,-2635,90272)continue else R=D[25804]or V(31890,25804,30025)continue end R=D[2755]or V(6605,2755,68464)else Cb,Tb,Rb,R,F,Ua=-1,1,X({},{[vc('Nq\154~J\146','\17.\247')]=vc('?:','I')}),D[-18347]or V(65048,-18347,110787),X({},{[vc('1\242\252\1\201\244','n\173\145')]=vc('\146\138','\249')}),false end elseif R<=28215 then yc,f_,Ca=Rb if rc(yc)~=vc('x\4(\246j\24)\251','\30qF\149')then R=D[30179]or V(18808,30179,115946)continue end R=D[-19836]or V(56801,-19836,59815)else Tb+=1;R=D[8794]or V(844,8794,71159)end elseif R>31114 then if R<31771 then if R>31478 then yc,f_,Ca=a_(yc);R=D[15823]or V(29569,15823,65966)else Ua=false;Tb+=1 if Ac>104 then R=D[19291]or V(50831,19291,25552)continue else R=D[8665]or V(50790,8665,31807)continue end R=D[-19175]or V(40936,-19175,102675)end elseif R<31813 then Tb+=kc[9074];R=D[-7225]or V(61431,-7225,98618)elseif R>31813 then if(Ac>69)then R=D[-15]or V(55613,-15,61710)continue else R=D[14737]or V(17399,14737,117475)continue end R=D[10390]or V(26005,10390,79704)else Tb-=1;R,Vb[Tb]=D[-22476]or V(17654,-22476,120377),{[47328]=16,[60167]=N(kc[60167],77),[22534]=N(kc[22534],220),[51436]=0}end elseif R>=29914 then if R>=30840 then if R<=30840 then R,Kb,yc=27077,Vb[Tb],nil else j,R=j..Xa(N(cc(Ab,(ab-238)+1),cc(Ja,(ab-238)%#Ja+1))),D[-26767]or V(60967,-26767,59324)end elseif R<=29914 then if(j>=0 and Ab>Ja)or((j<0 or j~=j)and Ab<Ja)then R=D[-444]or V(42940,-444,106074)else R=56828 end else R,Ca=D[17230]or V(5400,17230,67324),j continue end elseif R<29731 then R,da[kc[22534]]=D[-11556]or V(58988,-11556,112791),da[kc[51436]][da[kc[60167]]]elseif R<=29731 then if(Ac>203)then R=D[19195]or V(2288,19195,112095)continue else R=D[23791]or V(61825,23791,1323)continue end R=D[-10960]or V(46603,-10960,124990)else if Ac>163 then R=D[-11064]or V(40235,-11064,113728)continue else R=D[19638]or V(46420,19638,27788)continue end R=D[-8397]or V(48044,-8397,126295)end elseif R<20523 then if R<18040 then if R<17899 then if R>17833 then R,da[kc[60167]]=D[8369]or V(42821,8369,129416),da[kc[22534]]elseif R>17381 then la=Ab if Ja~=Ja then R=D[14826]or V(56237,14826,29259)else R=D[-21417]or V(12229,-21417,119871)end else if(not da[kc[60167]])then R=D[-13477]or V(7738,-13477,19003)continue else R=D[10834]or V(52414,10834,24161)continue end R=D[-9108]or V(2114,-9108,72437)end elseif R>=17950 then if R>17950 then if(Ac>242)then R=D[995]or V(28668,995,28717)continue else R=D[27025]or V(33452,27025,65372)continue end R=D[30168]or V(36201,30168,106396)else Ja[3]=Ja[1][Ja[2]];Ja[1]=Ja;Ja[2]=3;R,Rb[Ab]=D[-25515]or V(50113,-25515,15247),nil end else if(Ac>5)then R=D[-26505]or V(31159,-26505,123815)continue else R=D[-32016]or V(48916,-32016,4741)continue end R=D[2689]or V(32613,2689,78248)end elseif R<=18265 then if R>18218 then f_[(j-241)],R=p[la[22534]+1],D[14569]or V(27094,14569,104396)elseif R>18131 then if(Ac>149)then R=D[21509]or V(14021,21509,112396)continue else R=D[26153]or V(19156,26153,121358)continue end R=D[11857]or V(41924,11857,128271)elseif R<=18040 then ab=la if qc~=qc then R=D[-21809]or V(3877,-21809,77074)else R=63413 end else Tb-=1;R,Vb[Tb]=D[-6644]or V(27414,-6644,81369),{[47328]=163,[60167]=N(kc[60167],89),[22534]=N(kc[22534],252),[51436]=0}end elseif R>=18735 then if R<=18735 then if(Ac>198)then R=D[25958]or V(57431,25958,4453)continue else R=D[31760]or V(37069,31760,61687)continue end R=D[-31094]or V(17048,-31094,119875)else R,da[kc[51436]]=D[27292]or V(38110,27292,99841),da[kc[22534]][kc[60167]+1]end else Kb,yc=nil,da[kc[60167]];Kb=Fa(yc)==vc('\189\2\\\254\175\30]\243','\219w2\157')if(not Kb)then R=D[-1215]or V(62237,-1215,114633)continue else R=D[3673]or V(34049,3673,32194)continue end R=D[-28129]or V(13212,-28129,117597)end elseif R>=23727 then if R<25432 then if R<24613 then if(la>=0 and Ja>j)or((la<0 or la~=la)and Ja<j)then R=D[15368]or V(23061,15368,926)else R=37338 end elseif R<=24613 then if Ac>14 then R=D[-2510]or V(50590,-2510,62524)continue else R=D[-7512]or V(21511,-7512,18087)continue end R=D[-16472]or V(33896,-16472,104083)else if(Ac>7)then R=D[10296]or V(40336,10296,106636)continue else R=D[2550]or V(4595,2550,108486)continue end R=D[-11419]or V(50610,-11419,22373)end elseif R<26128 then if R<=25432 then F[kc]=nil;Tb+=1;R=D[-3966]or V(56898,-3966,20725)else Kb,yc=nil,da[kc[60167]];Kb=Fa(yc)==vc('\241\223VA\227\195WL','\151\170\56\"')if(not Kb)then R=D[-3839]or V(28732,-3839,28365)continue else R=D[27222]or V(36692,27222,31631)continue end R=31771 end elseif R<=26128 then Ab,Ja=vb(F[kc],f_,da[Kb+1],da[Kb+2])if(not Ab)then R=D[25153]or V(55835,25153,56096)continue else R=D[-22916]or V(26808,-22916,70895)continue end R=64399 else yc,f_,Ca=Kb[vc('8\3H\19\57S','g\\!')](yc);R=D[18056]or V(41152,18056,118125)end elseif R>=21663 then if R<22277 then if R>21663 then qc=qc+ab;_b=qc if qc~=qc then R=D[-26541]or V(433,-26541,31709)else R=D[23111]or V(53105,23111,31083)end else return bc(da,Kb,Kb+Ca-1)end elseif R>22277 then yc[57270]=f_ if Kb==2 then R=D[5565]or V(10690,5565,67968)continue elseif(Kb==3)then R=D[-32232]or V(33572,-32232,126833)continue else R=D[-27009]or V(10540,-27009,87827)continue end R=D[19668]or V(62713,19668,98920)else Tb-=1;Vb[Tb],R={[47328]=100,[60167]=N(kc[60167],129),[22534]=N(kc[22534],186),[51436]=0},D[-22083]or V(51030,-22083,22937)end elseif R>=20906 then if R>20906 then ia=ab[22534];q=Rb[ia]if(q==nil)then R=D[4406]or V(5516,4406,104015)continue else R=D[18392]or V(60071,18392,99289)continue end R=D[6576]or V(37777,6576,101579)else yc,f_,Ca=Kb[vc('w\18\56\\(#','(MQ')](yc);R=D[25475]or V(25284,25475,20122)end else H(z[51965],1,yc,Kb,da);R=D[-28261]or V(33278,-28261,103201)end elseif R<=9323 then if R>=6345 then if R<=7658 then if R>7349 then if R>7505 then if Ac>19 then R=D[-31450]or V(33736,-31450,14320)continue else R=D[1058]or V(55839,1058,34067)continue end R=D[28341]or V(17898,28341,120605)elseif R<=7446 then Tb+=1;R=D[23888]or V(18005,23888,120984)else kc=Vb[Tb];Ac,R=kc[47328],D[-6299]or V(47726,-6299,17828)end elseif R<=7233 then if R<=6972 then if R<=6345 then R,yc=52044,Ab continue else if Ac>18 then R=D[-28904]or V(16608,-28904,110442)continue else R=D[-11831]or V(877,-11831,70216)continue end R=D[-20798]or V(24503,-20798,119162)end else Tb+=kc[9074];R=D[5627]or V(2130,5627,72325)end elseif R<=7267 then Kb,yc,f_=kc[51436],kc[60167],kc[57270];Ca=da[yc];da[Kb+1]=Ca;da[Kb]=Ca[f_];Tb+=1;R=D[-29462]or V(27188,-29462,81151)else yc,f_,Ca=Rb if(rc(yc)~=vc(' \149v\175\50\137w\162','F\224\24\204'))then R=D[4243]or V(32766,4243,118880)continue else R=D[-12186]or V(14503,-12186,119021)continue end R=D[-10621]or V(566,-10621,129404)end elseif R<=8787 then if R>=8729 then if R>8729 then Tb-=1;R,Vb[Tb]=D[-12904]or V(46896,-12904,125435),{[47328]=232,[60167]=N(kc[60167],29),[22534]=N(kc[22534],152),[51436]=0}else Ja=Ja+la;qc=Ja if Ja~=Ja then R=D[29808]or V(16396,29808,2549)else R=D[6850]or V(10512,6850,128679)end end elseif R<=7694 then Tb-=1;R,Vb[Tb]=D[21459]or V(36317,21459,106240),{[47328]=3,[60167]=N(kc[60167],153),[22534]=N(kc[22534],87),[51436]=0}else if(Ac>219)then R=D[29220]or V(12521,29220,99935)continue else R=D[-4348]or V(53850,-4348,11057)continue end R=D[30440]or V(53642,30440,17597)end elseif R<=8953 then qc=Ja if j~=j then R=D[-2681]or V(62979,-2681,40948)else R=D[-32663]or V(32247,-32663,109190)end else Kb,yc=kc[60167],kc[57270];Cb=Kb+6;f_,Ca=da[Kb],nil;Ca=Fa(f_)==vc('\211\139r\191\193\151s\178','\181\254\28\220')if Ca then R=D[-32183]or V(58746,-32183,22401)continue else R=D[-30409]or V(24617,-30409,112345)continue end R=D[-3563]or V(17113,-3563,119820)end elseif R<=2468 then if R<1805 then if R<=874 then if R>26 then Ja,R=Ja..Xa(N(cc(Ca,(yb-61)+1),cc(Ab,(yb-61)%#Ab+1))),D[-24788]or V(58257,-24788,21785)else R,da[kc[60167]]=D[2997]or V(3349,2997,23235),f_[kc[7167]]end else if Ac>220 then R=D[10617]or V(5352,10617,65829)continue else R=D[-9356]or V(63844,-9356,13420)continue end R=D[-12841]or V(36798,-12841,123233)end elseif R<2407 then if R>1805 then la=la+yb;ab=la if la~=la then R=D[-15019]or V(46117,-15019,111122)else R=D[-9514]or V(6881,-9514,90878)end else Tb-=1;R,Vb[Tb]=D[-12052]or V(59069,-12052,112736),{[47328]=132,[60167]=N(kc[60167],100),[22534]=N(kc[22534],122),[51436]=0}end elseif R>2407 then R,Ab=D[-1087]or V(52904,-1087,111223),la continue else if(_b==1)then R=D[-15233]or V(42882,-15233,27002)continue else R=D[1247]or V(39924,1247,55548)continue end R=D[11005]or V(39967,11005,110927)end elseif R<=4369 then if R>=3978 then if R>3978 then da[kc[22534]]=qa(kc[53817]);Tb+=1;R=D[-2472]or V(12246,-2472,82201)else if(Ac>194)then R=D[-29335]or V(29677,-29335,32282)continue else R=D[7981]or V(13331,7981,128720)continue end R=D[25433]or V(43516,25433,129831)end elseif R>3344 then f_,R=Cb-yc+1,D[-23663]or V(46052,-23663,12908)else if(Ac>232)then R=D[9730]or V(17014,9730,73763)continue else R=D[-28087]or V(38639,-28087,60586)continue end R=D[-21696]or V(14952,-21696,93331)end elseif R<=4955 then if rc(yc)==vc('\207\127\217r\222','\187\30')then R=D[31300]or V(19794,31300,115670)continue end R=D[6684]or V(36388,6684,17762)else if(Kb==3)then R=D[-19239]or V(9474,-19239,94487)continue else R=D[15539]or V(59252,15539,62626)continue end R=D[-25799]or V(8547,-25799,110233)end elseif R<=15319 then if R>=13340 then if R>15076 then if R<15230 then Kb,yc,R,f_=kc[4826],Vb[Tb+1],40333,nil elseif R>15230 then la=la+yb;ab=la if la~=la then R=D[-12226]or V(50139,-12226,10349)else R=D[-14397]or V(7315,-14397,78461)end else Ab,Ja=yc(f_,Ca);Ca=Ab if Ca==nil then R=38253 else R=D[-15106]or V(9393,-15106,75664)end end elseif R<=14069 then if R>13481 then if Ac>0 then R=D[7023]or V(44827,7023,19340)continue else R=D[3895]or V(61076,3895,26369)continue end R=D[-23163]or V(58125,-23163,111920)elseif R>13340 then if(Ac>26)then R=D[-30997]or V(41548,-30997,99048)continue else R=D[22748]or V(53255,22748,1274)continue end R=D[-16448]or V(19349,-16448,122200)else if Ac>70 then R=D[-11216]or V(31123,-11216,128313)continue else R=D[-19531]or V(41972,-19531,20919)continue end R=D[21690]or V(7550,21690,69537)end else Kb=lb(yc)if Kb~=nil and Kb[vc('\135\180\209\172\142\202','\216\235\184')]~=nil then R=D[-26132]or V(64477,-26132,13031)continue elseif rc(yc)==vc('\15\254\25\243\30','{\159')then R=D[-4260]or V(45842,-4260,32660)continue end R=D[-2211]or V(57482,-2211,102039)end elseif R>11464 then if R>=12104 then if R<=12104 then H(da,yc,yc+f_-1,kc[53817],da[Kb]);Tb+=1;R=D[-30663]or V(44094,-30663,130785)else if Ac>170 then R=D[-8672]or V(46046,-8672,26902)continue else R=D[-25847]or V(55792,-25847,56655)continue end R=D[11530]or V(60242,11530,114053)end else Sb'';R=D[18836]or V(48503,18836,18858)end elseif R>11348 then if(_b==2)then R=D[18301]or V(1815,18301,90376)continue else R=D[-23779]or V(44516,-23779,123796)continue end R=D[-12731]or V(53429,-12731,26341)elseif R>10519 then da[Kb+2]=da[Kb+3];Tb+=kc[9074];R=D[6439]or V(23688,6439,118707)elseif R>9815 then if Ac>46 then R=D[-3294]or V(13885,-3294,127660)continue else R=D[-13173]or V(34610,-13173,56617)continue end R=D[17539]or V(30480,17539,76251)else if(Ac>36)then R=D[1817]or V(2608,1817,100839)continue else R=D[28737]or V(7813,28737,76278)continue end R=D[-1954]or V(14554,-1954,92685)end elseif R>=16030 then if R<17226 then if R>=16393 then if R>16393 then if Ac>3 then R=D[29158]or V(414,29158,111995)continue else R=D[13888]or V(39192,13888,8405)continue end R=D[-29618]or V(47118,-29618,125489)else yb=j if la~=la then R=D[8300]or V(6035,8300,109445)else R=D[12961]or V(26877,12961,77972)end end else if Ac>22 then R=D[3591]or V(56812,3591,58101)continue else R=D[-7369]or V(18591,-7369,5729)continue end R=D[-31186]or V(949,-31186,71032)end elseif R>17265 then Kb,yc=nil,N(kc[8017],63559);Kb=if yc<32768 then yc else yc-65536;f_=Kb;Ca=nc[f_+1];Ab=Ca[7950];Ja=qa(Ab);da[N(kc[60167],252)]=c(Ca,Ja);qc,j,la,R=1,128,(Ab)+127,54738 elseif R<=17226 then f_,R=Ja,22908 continue else Tb+=kc[9074];R=D[-23828]or V(43443,-23828,129894)end elseif R<=15807 then if R<15694 then if R>15591 then yc=z[63470];Cb,R=Kb+yc-1,D[11640]or V(28004,11640,109967)else Kb,yc=kc[4826],kc[57270];f_=n_[yc]or t_[29702][yc]if Kb==1 then R=D[-2028]or V(51421,-2028,63196)continue elseif(Kb==2)then R=D[13638]or V(35522,13638,64100)continue else R=D[-30252]or V(22760,-30252,223)continue end R=D[-6314]or V(45292,-6314,56602)end elseif R<=15694 then la=Vb[Tb];Tb+=1;qc=la[60167]if qc==0 then R=D[-28473]or V(32831,-28473,23790)continue elseif(qc==2)then R=D[17440]or V(3941,17440,100062)continue else R=D[22205]or V(6743,22205,124749)continue end R=D[30611]or V(15253,30611,116995)else R,da[kc[60167]]=D[17834]or V(7310,17834,19108),f_ end elseif R>15901 then if(Ac>132)then R=D[10518]or V(30130,10518,100095)continue else R=D[28865]or V(8227,28865,82788)continue end R=D[-6197]or V(4680,-6197,66803)else R,Ca=D[22587]or V(18199,22587,19638),Cb-Kb+1 end end end return function(...)local ra,ja,Ra,Wa,x,Aa,eb,Ma,aa,Fb,ya;Ma,Aa={},function(ba,g,tb)Ma[g]=Jb(tb,54512)-Jb(ba,53492)return Ma[g]end;eb=Ma[-5273]or Aa(21041,-5273,12367)while eb~=39876 do if eb<54538 then if eb<=30895 then if eb>=28403 then if eb<=28403 then return bc(ja,2,Wa)else eb=Ma[-4233]or Aa(23889,-4233,130457)continue end else Fb,ra,aa=I(...),qa(Ga[54061]),{[63470]=0,[51965]={}};H(Fb,1,Ga[40775],0,ra)if(Ga[40775]<Fb[vc('\179','\221')])then eb=Ma[22321]or Aa(46531,22321,126641)continue else eb=Ma[-6946]or Aa(31178,-6946,82899)continue end eb=60901 end else ya,eb=Fa(ya),Ma[6184]or Aa(27120,6184,91097)end elseif eb<=60901 then if eb>=56685 then if eb<=56685 then ya,Ra=ja[2],nil;x=ya;Ra=Fa(x)==vc(')\136\208\51\146\197','Z\252\162')if Ra==false then eb=Ma[1180]or Aa(52648,1180,2205)continue end eb=Ma[1851]or Aa(22387,1851,86364)else ja,Wa=_a(Db(ma,ra,Ga[55831],Ga[62483],aa))if ja[1]then eb=Ma[-11585]or Aa(35194,-11585,7281)continue else eb=Ma[-30029]or Aa(11876,-30029,69389)continue end eb=Ma[27647]or Aa(52235,27647,16734)end else ja,Wa=Ga[40775]+1,Fb[vc('\21','{')]-Ga[40775];aa[63470]=Wa;H(Fb,ja,ja+Wa-1,1,aa[51965]);eb=Ma[11755]or Aa(26565,11755,94694)end else return Sb(ya,0)end end end end return c(y,O)end)local hb;hb,na={[0]=0},function()hb[0]=hb[0]+-14198/-14198 return{[-6363/-6363]=hb,[0.00085142613878246064*2349]=hb[0]}end;Qa=ua return(function()return Qa(l_(ic'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'),{})end)()(...)
+--[[
+    ╔═══════════════════════════════════════════════════════════════════════╗
+    ║    NoFear Multi-Executor Compatibility v3.0 - STEALTH EDITION        ║
+    ║                                                                       ║
+    ║  Supports: Xeno, Solara, Seliware, Potassium, Wave, Bunni,          ║
+    ║           ByteBreaker, Valcano                                        ║
+    ║                                                                       ║
+    ║  MINIMAL FOOTPRINT - Only adds executor compatibility                ║
+    ╚═══════════════════════════════════════════════════════════════════════╝
+]]
+
+if not game:IsLoaded() then
+    game.Loaded:Wait()
+end
+
+-- ========================================
+-- MULTI-EXECUTOR COMPATIBILITY LAYER ONLY
+-- NO AGGRESSIVE SCANNING OR HOOKING
+-- ========================================
+
+-- Create global compatibility layer
+getgenv = getgenv or function() return _G end
+gethui = gethui or function() return game:GetService("CoreGui") end
+
+-- Function compatibility (fallbacks only)
+hookfunction = hookfunction or replaceclosure or function(old, new) return new end
+newcclosure = newcclosure or function(f) return f end
+getconnections = getconnections or get_signal_cons or function() return {} end
+getgc = getgc or get_gc_objects or function() return {} end
+hookmetamethod = hookmetamethod or function(obj, method, hook) return hook end
+getnamecallmethod = getnamecallmethod or get_namecall_method or function() return "" end
+checkcaller = checkcaller or is_protosmasher_caller or function() return false end
+
+-- Debug info compatibility
+if not (debug and debug.info) then
+    if debug and debug.getinfo then
+        local old_getinfo = debug.getinfo
+        debug.info = function(f, w)
+            local info = old_getinfo(f)
+            if w == "s" then return info.source end
+            if w == "n" then return info.name end
+            return info
+        end
+    else
+        debug = debug or {}
+        debug.info = function() return "" end
+    end
+end
+
+
+-- Simple kick protection (minimal)
+task.spawn(function()
+    local Players = game:GetService("Players")
+    local LocalPlayer = Players.LocalPlayer
+    
+    for _, kickName in ipairs({"Kick", "kick"}) do
+        pcall(function()
+            local kickFunc = LocalPlayer[kickName]
+            if type(kickFunc) == "function" then
+                local oldKick
+                oldKick = hookfunction(kickFunc, newcclosure(function(self, ...)
+                    if self == LocalPlayer then
+                        return
+                    end
+                    return oldKick(self, ...)
+                end))
+            end
+        end)
+    end
+end)
+
+task.wait(1)
+
+-- Skin changer loading
+
+--// ============================================================
+--// SKIN CHANGER (Protected by bypass)
+--// Full Model + Animation Replacement
+--// ============================================================
+
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Players = game:GetService("Players")
+local UserInputService = game:GetService("UserInputService")
+local TweenService = game:GetService("TweenService")
+
+local Player = Players.LocalPlayer
+local PlayerGui = Player:WaitForChild("PlayerGui")
+
+-- Paths
+local weaponsAssets = ReplicatedStorage:WaitForChild("Assets"):WaitForChild("Weapons")
+local weaponsDB = ReplicatedStorage:WaitForChild("Database"):WaitForChild("Custom"):WaitForChild("Weapons")
+local audioDB = ReplicatedStorage:WaitForChild("Database"):WaitForChild("Audio"):WaitForChild("Weapons")
+
+-- Config
+local currentConfig = {
+    SelectedKnife = nil,
+    SelectedKnifeSkin = nil,
+    SelectedWeapon = nil,
+    SelectedWeaponSkin = nil,
+    SelectedGlove = nil,
+    SelectedGloveSkin = nil,
+    WearLevel = "Factory New",
+    EnableSkinchanger = true
+}
+
+-- Knife database with available skins per knife
+local knifeDatabase = {
+    ["Butterfly Knife"] = {"Vanilla", "Fade", "Woodland", "Naval", "Whiteout", "Safari", "Violet", "Midnight", "Blackwidow", "Scarlet", "Lebron James"},
+    ["Karambit"] = {"Vanilla", "Fade", "Woodland", "Naval", "Whiteout", "Safari", "Violet", "Midnight", "Blackwidow", "Scarlet", "Aurora", "Frostbite", "Noir"},
+    ["Flip Knife"] = {"Vanilla", "Fade", "Woodland", "Naval", "Whiteout", "Safari", "Violet", "Midnight", "Blackwidow", "Scarlet", "Frostbite", "Aurora", "Noir"},
+    ["M9 Bayonet"] = {"Vanilla", "Fade", "Woodland", "Naval", "Whiteout", "Safari", "Violet", "Midnight", "Blackwidow", "Scarlet"},
+    ["Gut Knife"] = {"Vanilla", "Fade", "Woodland", "Naval", "Whiteout", "Violet", "Midnight", "Blackwidow", "Scarlet", "Safari", "Frostbite", "Aurora", "Noir"}
+}
+
+-- Weapon database with available skins per weapon
+local weaponDatabase = {
+    ["AK-47"] = {"Stock", "Sakura"},
+    ["M4A4"] = {"Stock", "The Ambassador", "Wrapped", "B-Hop"},
+    ["M4A1-S"] = {"Stock", "Retro", "Anodized Red", "Orchids"},
+    ["AWP"] = {"Stock", "Typhon", "Beta", "Metamorphosis", "High Octane"},
+    ["Desert Eagle"] = {"Stock", "Mercy", "Permafrost", "High Octane"},
+    ["Glock-18"] = {"Stock", "Fade", "Aurora", "Fuji"},
+    ["USP-S"] = {"Stock", "Wintergreen"},
+    ["P90"] = {"Stock", "Big Cat"},
+    ["AUG"] = {"Stock", "Hot Rod", "Overgrowth", "Anodized Red"},
+    ["FAMAS"] = {"Stock", "Arctic Camo", "Heirloom"},
+    ["Galil AR"] = {"Stock", "Irradiated", "Monochrome"},
+    ["SSG 08"] = {"Stock", "Desert Strike", "Labyrinth"},
+    ["Nova"] = {"Stock", "Arctic Stripe", "Heat", "Flutter"},
+    ["XM1014"] = {"Stock", "Abstract", "Lilies"},
+    ["P250"] = {"Stock", "Glacial", "Pulse", "B-250"},
+    ["Five-SeveN"] = {"Stock", "Icecap"},
+    ["Tec-9"] = {"Stock", "Striker", "Monarch", "Medal.tv"},
+    ["Dual Berettas"] = {"Stock", "Choking Hazard", "Vernal"},
+    ["MP9"] = {"Stock", "X-Ray", "Anodized Red", "High Octane"},
+    ["MAC-10"] = {"Stock", "Air Mail", "Daisies"},
+    ["Negev"] = {"Stock", "Frostbloom", "Noctiflora"},
+    ["SG 553"] = {"Stock", "Frostline", "Dynasty"}
+}
+
+-- Glove database with available skins per glove type
+local gloveDatabase = {
+    ["Driver Gloves"] = {"Cardinal Weave", "Cobra", "Gator", "Leopard", "Midnight Weave", "Nomad", "Snow Leopard", "Tartan", "Tuxedo", "Cardinal"},
+    ["Sports Gloves"] = {"Bumblebee", "Freshmint", "Hunter", "Dune", "Blackout", "Imperial", "Labyrinth", "Malibu", "Racer", "Tidal"},
+    ["Operator Gloves"] = {"Emerald Widow", "Black Widow", "Reinforced", "Bumblebee", "Fade", "Smoke", "Amber Fade", "Agent", "Hunter", "Hellwire"},
+    ["Hand Wraps"] = {"Crime Scene", "Checkers", "Carpet", "Camouflage", "Meander", "Bandage", "Hunter", "Taped"}
+}
+
+-- Store original assets for restoration
+local originalAssets = {}
+local originalDB = {}
+local originalAudio = {}
+
+-- Apply replacement function
+local function applyKnifeReplacement(originalName, replacementName, skinName)
+    if not replacementName then return end
+    
+    skinName = skinName or "Fade"
+    
+    -- Applying knife replacement
+    
+    -- Replace assets
+    local originalAsset = weaponsAssets:FindFirstChild(originalName)
+    local replacementAsset = weaponsAssets:FindFirstChild(replacementName)
+    
+    if originalAsset and replacementAsset then
+        if not originalAssets[originalName] then
+            originalAssets[originalName] = {}
+            for _, child in ipairs(originalAsset:GetChildren()) do
+                table.insert(originalAssets[originalName], child:Clone())
+            end
+        end
+        
+        for _, child in ipairs(originalAsset:GetChildren()) do
+            child:Destroy()
+        end
+        
+        for _, child in ipairs(replacementAsset:GetChildren()) do
+            child:Clone().Parent = originalAsset
+        end
+        
+        -- Apply skin texture to Camera model
+        local cameraModel = originalAsset:FindFirstChild("Camera")
+                if cameraModel then
+            local weaponModel = cameraModel:FindFirstChild("Weapon")
+                        if weaponModel then
+                local SKINS_PATH = ReplicatedStorage:WaitForChild("Assets"):WaitForChild("Skins")
+                local skinFolder = SKINS_PATH:FindFirstChild(replacementName)
+                                if skinFolder then
+                    local specificSkin = skinFolder:FindFirstChild(skinName)
+                                        if specificSkin then
+                        local skinCameraFolder = specificSkin:FindFirstChild("Camera")
+                                                if skinCameraFolder then
+                            local wearFolder = skinCameraFolder:FindFirstChild(currentConfig.WearLevel) or skinCameraFolder:FindFirstChild("Factory New")
+                                                        if wearFolder then
+                                -- Apply to handle
+                                local weaponHandle = weaponModel:FindFirstChild("Handle")
+                                if weaponHandle then
+                                    for _, child in ipairs(weaponHandle:GetChildren()) do
+                                        if child:IsA("SurfaceAppearance") then
+                                            child:Destroy()
+                                        end
+                                    end
+                                    local skinSurface = wearFolder:FindFirstChild("Handle")
+                                    if skinSurface then
+                                        skinSurface:Clone().Parent = weaponHandle
+                                    end
+                                end
+                                
+                                -- Apply to other parts (for butterfly knife, etc.)
+                                for _, part in ipairs(weaponModel:GetChildren()) do
+                                    if part:IsA("BasePart") and part.Name ~= "Handle" then
+                                        local skinPart = wearFolder:FindFirstChild(part.Name)
+                                        if skinPart then
+                                            for _, child in ipairs(part:GetChildren()) do
+                                                if child:IsA("SurfaceAppearance") then
+                                                    child:Destroy()
+                                                end
+                                            end
+                                            skinPart:Clone().Parent = part
+                                        end
+                                    end
+                                end
+                                
+                                -- Texture applied silently
+                            end
+                        end
+                    end
+                end
+            end
+        end
+        
+            end
+    
+    -- Replace database module
+    local originalDBMod = weaponsDB:FindFirstChild(originalName)
+    local replacementDBMod = weaponsDB:FindFirstChild(replacementName)
+    
+    if originalDBMod and replacementDBMod then
+        if not originalDB[originalName] then
+            originalDB[originalName] = originalDBMod:Clone()
+        end
+        
+        local replacementClone = replacementDBMod:Clone()
+        replacementClone.Name = originalName
+        replacementDBMod.Parent = nil
+        originalDBMod:Destroy()
+        replacementClone.Parent = weaponsDB
+        replacementDBMod.Parent = weaponsDB
+        
+            end
+    
+    -- Replace audio
+    local originalAudioMod = audioDB:FindFirstChild(originalName)
+    local replacementAudioMod = audioDB:FindFirstChild(replacementName)
+    
+    if originalAudioMod and replacementAudioMod then
+        if not originalAudio[originalName] then
+            originalAudio[originalName] = {}
+            for _, child in ipairs(originalAudioMod:GetChildren()) do
+                table.insert(originalAudio[originalName], child:Clone())
+            end
+        end
+        
+        for _, child in ipairs(originalAudioMod:GetChildren()) do
+            child:Destroy()
+        end
+        
+        for _, child in ipairs(replacementAudioMod:GetChildren()) do
+            child:Clone().Parent = originalAudioMod
+        end
+        
+            end
+    
+        
+    -- Also apply to currently equipped knife if it exists
+    local camera = workspace.CurrentCamera
+    local equippedKnife = camera:FindFirstChild(originalName)
+    if equippedKnife then
+                local weaponModel = equippedKnife:FindFirstChild("Weapon")
+        if weaponModel then
+            local SKINS_PATH = ReplicatedStorage:WaitForChild("Assets"):WaitForChild("Skins")
+            local skinFolder = SKINS_PATH:FindFirstChild(replacementName)
+            if skinFolder then
+                local specificSkin = skinFolder:FindFirstChild(skinName)
+                if specificSkin then
+                    local skinCameraFolder = specificSkin:FindFirstChild("Camera")
+                    if skinCameraFolder then
+                        local wearFolder = skinCameraFolder:FindFirstChild(currentConfig.WearLevel) or skinCameraFolder:FindFirstChild("Factory New")
+                        if wearFolder then
+                            -- Apply to handle
+                            local weaponHandle = weaponModel:FindFirstChild("Handle")
+                            if weaponHandle then
+                                for _, child in ipairs(weaponHandle:GetChildren()) do
+                                    if child:IsA("SurfaceAppearance") then
+                                        child:Destroy()
+                                    end
+                                end
+                                local skinSurface = wearFolder:FindFirstChild("Handle")
+                                if skinSurface then
+                                    skinSurface:Clone().Parent = weaponHandle
+                                    -- Texture applied silently
+                                end
+                            end
+                            
+                            -- Apply to other parts
+                            for _, part in ipairs(weaponModel:GetChildren()) do
+                                if part:IsA("BasePart") and part.Name ~= "Handle" then
+                                    local skinPart = wearFolder:FindFirstChild(part.Name)
+                                    if skinPart then
+                                        for _, child in ipairs(part:GetChildren()) do
+                                            if child:IsA("SurfaceAppearance") then
+                                                child:Destroy()
+                                            end
+                                        end
+                                        skinPart:Clone().Parent = part
+                                        -- Texture applied silently
+                                    end
+                                end
+                            end
+                        end
+                    end
+                end
+            end
+        end
+    end
+end
+
+-- Apply glove replacement function
+local function applyGloveReplacement(originalName, replacementName, skinName)
+    if not replacementName or not skinName then return end
+    
+    -- Applying glove replacement
+    
+    -- Check if glove type or CT/T default
+    local isDefaultGlove = (originalName == "T Glove" or originalName == "CT Glove")
+    
+    if isDefaultGlove then
+        -- Replace default gloves with fancy gloves
+        local originalAsset = weaponsAssets:FindFirstChild(originalName)
+        local replacementAsset = weaponsAssets:FindFirstChild(replacementName)
+        
+        if originalAsset and replacementAsset then
+            -- Store original
+            if not originalAssets[originalName] then
+                originalAssets[originalName] = {}
+                for _, child in ipairs(originalAsset:GetChildren()) do
+                    table.insert(originalAssets[originalName], child:Clone())
+                end
+            end
+            
+            -- Clear and replace
+            for _, child in ipairs(originalAsset:GetChildren()) do
+                child:Destroy()
+            end
+            
+            for _, child in ipairs(replacementAsset:GetChildren()) do
+                child:Clone().Parent = originalAsset
+            end
+            
+                    end
+        
+        -- Replace database
+        local originalDBMod = weaponsDB:FindFirstChild(originalName)
+        local replacementDBMod = weaponsDB:FindFirstChild(replacementName)
+        
+        if originalDBMod and replacementDBMod then
+            if not originalDB[originalName] then
+                originalDB[originalName] = originalDBMod:Clone()
+            end
+            
+            local replacementClone = replacementDBMod:Clone()
+            replacementClone.Name = originalName
+            replacementDBMod.Parent = nil
+            originalDBMod:Destroy()
+            replacementClone.Parent = weaponsDB
+            replacementDBMod.Parent = weaponsDB
+            
+                    end
+    end
+    
+    -- Apply glove skin texture (works for both default→fancy and fancy→fancy)
+    local targetGlove = isDefaultGlove and originalName or replacementName
+    local SKINS_PATH = ReplicatedStorage:WaitForChild("Assets"):WaitForChild("Skins")
+    local skinFolder = SKINS_PATH:FindFirstChild(replacementName)
+    
+    if skinFolder then
+        local specificSkin = skinFolder:FindFirstChild(skinName)
+        if specificSkin then
+            -- Apply to character gloves (visible to others)
+            local characterSkin = specificSkin:FindFirstChild("Character")
+            if characterSkin then
+                local wearFolder = characterSkin:FindFirstChild(currentConfig.WearLevel) or characterSkin:FindFirstChild("Factory New")
+                if wearFolder then
+                    local leftArm = wearFolder:FindFirstChild("Left Arm")
+                    local rightArm = wearFolder:FindFirstChild("Right Arm")
+                    
+                    if leftArm or rightArm then
+                                            end
+                end
+            end
+            
+            -- Apply to camera gloves (first person view)
+            local cameraSkin = specificSkin:FindFirstChild("Camera")
+            if cameraSkin then
+                local wearFolder = cameraSkin:FindFirstChild(currentConfig.WearLevel) or cameraSkin:FindFirstChild("Factory New")
+                if wearFolder then
+                                    end
+            end
+        end
+    end
+    
+    end
+
+-- Notifications handled by Window:Notify() from DrawingUILib
+
+local function startTextureMonitor()
+    local camera = workspace.CurrentCamera
+    
+    camera.ChildAdded:Connect(function(child)
+        if not child:IsA("Model") then return end
+        
+        -- Handle knives
+        if child.Name == "T Knife" or child.Name == "CT Knife" then
+            -- Wait for the knife to fully load
+            task.wait(0.3)
+            
+            -- Check if we have a configured knife/skin
+            if currentConfig.SelectedKnife and currentConfig.SelectedKnifeSkin then
+                local weaponModel = child:FindFirstChild("Weapon")
+                if weaponModel then
+                    local SKINS_PATH = ReplicatedStorage:WaitForChild("Assets"):WaitForChild("Skins")
+                    local skinFolder = SKINS_PATH:FindFirstChild(currentConfig.SelectedKnife)
+                    if skinFolder then
+                        local specificSkin = skinFolder:FindFirstChild(currentConfig.SelectedKnifeSkin)
+                        if specificSkin then
+                            local skinCameraFolder = specificSkin:FindFirstChild("Camera")
+                            if skinCameraFolder then
+                                local wearFolder = skinCameraFolder:FindFirstChild(currentConfig.WearLevel) or skinCameraFolder:FindFirstChild("Factory New")
+                                if wearFolder then
+                                    -- Apply to handle
+                                    local weaponHandle = weaponModel:FindFirstChild("Handle")
+                                    if weaponHandle then
+                                        for _, oldChild in ipairs(weaponHandle:GetChildren()) do
+                                            if oldChild:IsA("SurfaceAppearance") then
+                                                oldChild:Destroy()
+                                            end
+                                        end
+                                        local skinSurface = wearFolder:FindFirstChild("Handle")
+                                        if skinSurface then
+                                            skinSurface:Clone().Parent = weaponHandle
+                                                                                    end
+                                    end
+                                    
+                                    -- Apply to other parts (butterfly, etc.)
+                                    for _, part in ipairs(weaponModel:GetChildren()) do
+                                        if part:IsA("BasePart") and part.Name ~= "Handle" then
+                                            local skinPart = wearFolder:FindFirstChild(part.Name)
+                                            if skinPart then
+                                                for _, oldChild in ipairs(part:GetChildren()) do
+                                                    if oldChild:IsA("SurfaceAppearance") then
+                                                        oldChild:Destroy()
+                                                    end
+                                                end
+                                                skinPart:Clone().Parent = part
+                                            end
+                                        end
+                                    end
+                                end
+                            end
+                        end
+                    end
+                end
+            end
+        end
+        
+        -- Handle weapons
+        if weaponDatabase[child.Name] and currentConfig.SelectedWeapon == child.Name and currentConfig.SelectedWeaponSkin then
+            task.wait(0.3)
+            
+            local weaponModel = child:FindFirstChild("Weapon")
+            if weaponModel then
+                local SKINS_PATH = ReplicatedStorage:WaitForChild("Assets"):WaitForChild("Skins")
+                local skinFolder = SKINS_PATH:FindFirstChild(child.Name)
+                if skinFolder then
+                    local specificSkin = skinFolder:FindFirstChild(currentConfig.SelectedWeaponSkin)
+                    if specificSkin then
+                        local skinCameraFolder = specificSkin:FindFirstChild("Camera")
+                        if skinCameraFolder then
+                            local wearFolder = skinCameraFolder:FindFirstChild(currentConfig.WearLevel) or skinCameraFolder:FindFirstChild("Factory New")
+                            if wearFolder then
+                                -- Apply to weapon handle
+                                local weaponHandle = weaponModel:FindFirstChild("Handle")
+                                if weaponHandle then
+                                    for _, oldChild in ipairs(weaponHandle:GetChildren()) do
+                                        if oldChild:IsA("SurfaceAppearance") then
+                                            oldChild:Destroy()
+                                        end
+                                    end
+                                    local skinSurface = wearFolder:FindFirstChild("Handle")
+                                    if skinSurface then
+                                        skinSurface:Clone().Parent = weaponHandle
+                                                                            end
+                                end
+                                
+                                -- Apply to other parts if they exist
+                                for _, part in ipairs(weaponModel:GetChildren()) do
+                                    if part:IsA("BasePart") and part.Name ~= "Handle" then
+                                        local skinPart = wearFolder:FindFirstChild(part.Name)
+                                        if skinPart then
+                                            for _, oldChild in ipairs(part:GetChildren()) do
+                                                if oldChild:IsA("SurfaceAppearance") then
+                                                    oldChild:Destroy()
+                                                end
+                                            end
+                                            skinPart:Clone().Parent = part
+                                        end
+                                    end
+                                end
+                            end
+                        end
+                    end
+                end
+            end
+        end
+        
+        -- Handle gloves (T Glove or CT Glove)
+        if (child.Name == "T Glove" or child.Name == "CT Glove") and currentConfig.SelectedGlove and currentConfig.SelectedGloveSkin then
+            task.wait(0.3)
+            
+            local SKINS_PATH = ReplicatedStorage:WaitForChild("Assets"):WaitForChild("Skins")
+            local skinFolder = SKINS_PATH:FindFirstChild(currentConfig.SelectedGlove)
+            if skinFolder then
+                local specificSkin = skinFolder:FindFirstChild(currentConfig.SelectedGloveSkin)
+                if specificSkin then
+                    local skinCameraFolder = specificSkin:FindFirstChild("Camera")
+                    if skinCameraFolder then
+                        local wearFolder = skinCameraFolder:FindFirstChild(currentConfig.WearLevel) or skinCameraFolder:FindFirstChild("Factory New")
+                        if wearFolder then
+                            -- Find Left Arm and Right Arm in camera view
+                            local leftArm = child:FindFirstChild("Left Arm", true)
+                            local rightArm = child:FindFirstChild("Right Arm", true)
+                            
+                            -- Apply to Left Arm
+                            if leftArm then
+                                for _, oldChild in ipairs(leftArm:GetChildren()) do
+                                    if oldChild:IsA("SurfaceAppearance") then
+                                        oldChild:Destroy()
+                                    end
+                                end
+                                local skinLeftArm = wearFolder:FindFirstChild("Left Arm")
+                                if skinLeftArm then
+                                    skinLeftArm:Clone().Parent = leftArm
+                                end
+                            end
+                            
+                            -- Apply to Right Arm
+                            if rightArm then
+                                for _, oldChild in ipairs(rightArm:GetChildren()) do
+                                    if oldChild:IsA("SurfaceAppearance") then
+                                        oldChild:Destroy()
+                                    end
+                                end
+                                local skinRightArm = wearFolder:FindFirstChild("Right Arm")
+                                if skinRightArm then
+                                    skinRightArm:Clone().Parent = rightArm
+                                end
+                            end
+                            
+                                                    end
+                    end
+                end
+            end
+        end
+    end)
+    
+    end
+
+-- Initialize
+-- NoFear BloxStrike SkinChanger
+
+-- Load loader in module mode
+local _loaderEnv = getfenv and getfenv() or _ENV
+_loaderEnv.ScriptURL = ""
+_loaderEnv.ScriptName = "BloxStrike SkinChanger"
+local loaderSrc = game:HttpGet("https://raw.githubusercontent.com/nofearscripts/nofearUI/refs/heads/main/nofearld")
+local runWithKeyCheck = loadstring(loaderSrc)()
+if not runWithKeyCheck then return end
+
+runWithKeyCheck(function()
+
+local uiSrc = game:HttpGet("https://raw.githubusercontent.com/nofearscripts/nofearUI/refs/heads/main/bstrikeUI")
+local uiChunk, uiErr = loadstring(uiSrc)
+if not uiChunk then error("[NoFear] UI compile error: " .. tostring(uiErr)) end
+local ok, result = pcall(uiChunk)
+local Library = (ok and result) or getgenv().DrawLib or _G.DrawLib
+if not Library then error("[NoFear] Failed to load UI Library - Executor may not be supported") end
+local vp = workspace.CurrentCamera.ViewportSize
+local Window = Library:CreateWindow({ Title = "NoFear", Game = "BloxStrike SkinChanger", Version = "v1.0", Discord = "discord.gg/G9QSXsB9wY", ToggleKey = Enum.KeyCode.K, StartX = vp.X - 740, StartY = 100 })
+
+-- Build sorted name lists
+local knifeNames = {}
+for k in pairs(knifeDatabase) do table.insert(knifeNames, k) end
+table.sort(knifeNames)
+
+local weaponNames = {}
+for k in pairs(weaponDatabase) do table.insert(weaponNames, k) end
+table.sort(weaponNames)
+
+local gloveNames = {}
+for k in pairs(gloveDatabase) do table.insert(gloveNames, k) end
+table.sort(gloveNames)
+
+-- Knives Tab: one section per knife, scrollable
+local KnivesTab = Window:AddTab({ Name = "Knives" })
+local side = false
+for _, knifeName in ipairs(knifeNames) do
+    local sec = KnivesTab:AddSection(knifeName, side)
+    local skins = knifeDatabase[knifeName]
+    sec:AddDropdown({ Name = "Skin", Options = skins, Default = skins[1], Callback = function(v)
+        currentConfig.SelectedKnife = knifeName
+        currentConfig.SelectedKnifeSkin = v
+        applyKnifeReplacement("T Knife", knifeName, v)
+        applyKnifeReplacement("CT Knife", knifeName, v)
+        Window:Notify(knifeName .. " | " .. v .. " applied")
+    end })
+    side = not side
+end
+
+local function applyWeaponSkinNow(weaponName, skinName)
+    -- Apply skin to currently equipped weapon in camera if it matches
+    local camera = workspace.CurrentCamera
+    local equippedWeapon = camera:FindFirstChild(weaponName)
+    if equippedWeapon then
+        local weaponModel = equippedWeapon:FindFirstChild("Weapon")
+        if weaponModel then
+            local SKINS_PATH = ReplicatedStorage:WaitForChild("Assets"):WaitForChild("Skins")
+            local skinFolder = SKINS_PATH:FindFirstChild(weaponName)
+            if skinFolder then
+                local specificSkin = skinFolder:FindFirstChild(skinName)
+                if specificSkin then
+                    local skinCameraFolder = specificSkin:FindFirstChild("Camera")
+                    if skinCameraFolder then
+                        local wearFolder = skinCameraFolder:FindFirstChild(currentConfig.WearLevel) or skinCameraFolder:FindFirstChild("Factory New")
+                        if wearFolder then
+                            local weaponHandle = weaponModel:FindFirstChild("Handle")
+                            if weaponHandle then
+                                for _, c in ipairs(weaponHandle:GetChildren()) do
+                                    if c:IsA("SurfaceAppearance") then c:Destroy() end
+                                end
+                                local skinSurface = wearFolder:FindFirstChild("Handle")
+                                if skinSurface then skinSurface:Clone().Parent = weaponHandle end
+                            end
+                            for _, part in ipairs(weaponModel:GetChildren()) do
+                                if part:IsA("BasePart") and part.Name ~= "Handle" then
+                                    local skinPart = wearFolder:FindFirstChild(part.Name)
+                                    if skinPart then
+                                        for _, c in ipairs(part:GetChildren()) do
+                                            if c:IsA("SurfaceAppearance") then c:Destroy() end
+                                        end
+                                        skinPart:Clone().Parent = part
+                                    end
+                                end
+                            end
+                        end
+                    end
+                end
+            end
+        end
+    end
+end
+
+-- Weapons Tab: one section per weapon, scrollable
+local WeaponsTab = Window:AddTab({ Name = "Weapons" })
+side = false
+for _, weaponName in ipairs(weaponNames) do
+    local sec = WeaponsTab:AddSection(weaponName, side)
+    local skins = weaponDatabase[weaponName]
+    sec:AddDropdown({ Name = "Skin", Options = skins, Default = skins[1], Callback = function(v)
+        currentConfig.SelectedWeapon = weaponName
+        currentConfig.SelectedWeaponSkin = v
+        applyWeaponSkinNow(weaponName, v)
+        Window:Notify(weaponName .. " | " .. v .. " applied")
+    end })
+    side = not side
+end
+
+local SettingsTab = Window:AddTab({ Name = "Settings" })
+local GenSec = SettingsTab:AddSection("General")
+GenSec:AddToggle({ Name = "Enable Skinchanger", Default = true, Callback = function(v) currentConfig.EnableSkinchanger = v end })
+GenSec:AddDropdown({ Name = "Wear Level", Options = {"Factory New","Minimal Wear","Field-Tested","Well-Worn","Battle-Scarred"}, Default = "Factory New", Callback = function(v) currentConfig.WearLevel = v end })
+local InfoSec = SettingsTab:AddSection("Info", "right")
+InfoSec:AddLabel({ Text = "NoFear BloxStrike SkinChanger v1.0" })
+InfoSec:AddLabel({ Text = "Skins apply at start of next round" })
+InfoSec:AddLabel({ Text = "Press K to toggle UI" })
+
+Window:Finalize()
+startTextureMonitor()
+
+end) -- runWithKeyCheck
